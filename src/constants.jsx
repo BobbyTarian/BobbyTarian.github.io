@@ -1,0 +1,6 @@
+export const SPOTIFY_URL = "https://open.spotify.com/artist/5LvfXALEQIOQtnfpnAUMJX?si=uQBspdOnQLO1dBVjj2IHRQ"
+export const BANDCAMP_URL = ""
+export const SOUNDCLOUD_URL = ""
+export const INSTAGRAM_URL = ""
+export const FACEBOOK_URL = ""
+export const TIKTOK_URL = ""
