@@ -9,6 +9,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a:hover {
+  color: rgb(167, 81, 12)
+}
+
+a:link {
+  color: rgb(172, 133, 215);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -35,7 +43,7 @@ code {
 .customNav {
   font-family: "El Messiri", sans-serif;
   color: #f5fffd;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
 }
 
 .mainSection {
@@ -112,6 +120,16 @@ code {
     background: linear-gradient(97deg, rgba(202, 252, 220, 1) 0%, rgba(207, 80, 114, 1) 16%, rgba(132, 199, 189, 1) 32%, rgba(179, 105, 166, 1) 65%, rgba(184, 201, 212, 1) 75%, rgba(219, 211, 228, 1) 93%, rgba(247, 219, 240, 1) 100%, rgba(6, 79, 76, 0.5690651260504201) 100%, rgba(14, 60, 124, 1) 100%, rgba(204, 213, 201, 1) 100%, rgba(150, 38, 7, 1) 100%);
 }
 
+.MainView > * {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  
+}
+
+
+
 .navbar-brand {
   margin-left: 2em;
 }
@@ -129,11 +147,12 @@ code {
 }
 
 .PlatformsDisplayMain {
-  margin: 1em;
+  margin: 2em 2em 2em 0em;
+
 }
 
 .PlatformDisplayLink{
-  margin:1em;
+  margin: 0em 1.25em 0em 0em;
 }
 
 .musicSection{
@@ -149,6 +168,11 @@ code {
 @media screen and (max-width:650px){
   .BioSection {
     width: 85%;
+  }
+  .PlatformsDisplayMain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .BioSection{
@@ -174,9 +198,15 @@ code {
 .BannerImage{
   width: 100%;
   height: 15em;
+  background-position: center;
+  box-shadow: 8px 4px 4px #84c7bd ;
+  color:#84c7bd;
+  margin-bottom:1em;
+  padding:1em;
   
 }
 .BannerImage > h1 {
   padding: 2em;
   text-align: center;
+  font-family: 'Libre Baskerville', serif;
 }

@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function navbar() {
   return (
     <Navbar bg="dark" variant="dark" expand="sm" sticky="top" className="customNav ">
-        <Navbar.Brand href="#home">Bobby Tarian</Navbar.Brand>
+        <Navbar.Brand href="#Home">Bobby Tarian</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
