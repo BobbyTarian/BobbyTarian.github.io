@@ -7,7 +7,7 @@ const musicSection = () => {
             <p>Bobby released his EP<em> Moon Remains Seasons Change</em> at the end of 2020.</p>
             <p>you can catch Bobby busking at various Farmers markets in Edmonton.</p>
             <StreamingPlatformsDisplay></StreamingPlatformsDisplay>
-            <iframe width="50%" height="350" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1161759502&color=%239b6e76&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1909035226/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://bobbytarian.bandcamp.com/album/moon-remains-seasons-change">Moon Remains, Seasons Change by Bobby Tarian</a></iframe>
             
         </section>
     );
