@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a:hover {
@@ -163,15 +164,23 @@ code {
 
 @media screen and (min-width: 650px){
   .BioSection, .musicSection {
-    width: 30%;
+    width: 75%;
   }
 }
-@media screen and (max-width:650px){
+
+@media screen and (min-width: 1500px) {
+
+  .BioSection,
+  .musicSection {
+    width: 45%;
+  }
+}
+@media screen and (max-width:651px){
   .BioSection {
     width: 85%;
   }
   .musicSection {
-      width: 500px;
+      width: 85%;
   }
   .PlatformsDisplayMain{
     display: block;
@@ -199,6 +208,7 @@ code {
 }
 
 .PlatformDisplayLink{
+
   color:rgb(102, 4, 213);
 }
 
