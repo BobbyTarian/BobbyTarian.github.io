@@ -11,10 +11,12 @@ body {
 }
 
 a:hover {
-  color: rgb(167, 81, 12)
+  color: rgb(115, 7, 121)
 }
 
-
+:root {
+  --headshot-ratio: 1.20;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -39,10 +41,18 @@ code {
   margin-top: 1em;
 }
 
+.pageTitle {
+  font-size: 500% ;
+}
+
 .customNav {
   font-family: "El Messiri", sans-serif;
   color: #f5fffd;
   /* margin-bottom: 1em; */
+  background: rgb(39, 2, 71);
+  background: linear-gradient(90deg, rgba(39, 2, 71, 1) 6%, rgba(36, 3, 75, 1) 64%, rgba(0, 13, 124, 1) 87%, rgba(212, 74, 211, 1) 100%);
+  box-shadow: 1px 1px 2px rgb(39, 1, 88);
+  
 }
 
 .mainSection {
@@ -115,8 +125,8 @@ code {
 }
 
 .MainView{
-  background: rgb(202, 252, 220);
-    background: linear-gradient(97deg, rgba(202, 252, 220, 1) 0%, rgba(207, 80, 114, 1) 16%, rgba(132, 199, 189, 1) 32%, rgba(179, 105, 166, 1) 65%, rgba(184, 201, 212, 1) 75%, rgba(219, 211, 228, 1) 93%, rgba(247, 219, 240, 1) 100%, rgba(6, 79, 76, 0.5690651260504201) 100%, rgba(14, 60, 124, 1) 100%, rgba(204, 213, 201, 1) 100%, rgba(150, 38, 7, 1) 100%);
+  background: rgb(39, 2, 71);
+    background: radial-gradient(circle, rgba(39, 2, 71, 1) 0%, rgba(130, 94, 162, 1) 62%, rgba(0, 0, 0, 1) 91%);
 }
 
 .MainView > * {
@@ -124,6 +134,7 @@ code {
   font-family: 'Titillium Web', sans-serif;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
+  color:#c3c9c1;
   
 }
 
@@ -147,7 +158,12 @@ code {
 }
 
 .PlatformsDisplayMain {
-  margin: 2em 2em 2em 0em;
+  /* margin: 2em 2em 2em 0em; */
+  width: 50%;
+  margin: auto;
+  padding: 0.3em;
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
@@ -162,32 +178,93 @@ code {
 
 }
 
+.musicPlayerContainer {
+  margin: auto;
+  width: 50%;
+}
+
+.musicPlayerContainer>p {
+  text-align: center;
+}
+
+.BioText {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
 @media screen and (min-width: 650px){
   .BioSection, .musicSection {
     width: 75%;
   }
+
+     .headshotPhotoContainer {
+       width: 400px;
+       height: calc(400px * var(--headshot-ratio));
+       margin: auto;
+       padding: 1em;
+     }
+  
 }
 
 @media screen and (min-width: 1500px) {
 
   .BioSection,
   .musicSection {
-    width: 45%;
+    width: 50%;
   }
+  .headshotPhotoContainer {
+    width: 500px;
+    height: calc(500px * var(--headshot-ratio));
+    margin: auto;
+    padding: 1em;
+  }
+  .BioText {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+  }
+
+    .musicPlayerContainer {
+      margin: auto;
+      width: 350px;
+      margin-bottom:1em;
+    }
 }
 @media screen and (max-width:651px){
   .BioSection {
     width: 85%;
   }
   .musicSection {
-      width: 85%;
+      width: 90%;
+  }
+  .musicPlayerContainer {
+    width: 100%;
   }
   .PlatformsDisplayMain{
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  .headshotPhotoContainer {
+    width: 300px;
+    height: calc(300px * var(--headshot-ratio));
+    margin: auto;
+    padding: 1em;
+  }
 }
+
+
+@media screen and (max-width:400px) {
+
+
+  .headshotPhotoContainer {
+    margin: auto;
+    padding: 0.5em;
+  }
+}
+
+
 .BioSection{
   margin-top: 2em;
   margin-bottom: 2em;
@@ -209,25 +286,58 @@ code {
 
 .PlatformDisplayLink{
 
-  color:rgb(102, 4, 213);
+  color:rgb(243, 30, 172);
+  margin:0.5em;
 }
 
 .BannerImage{
   width: 100%;
-  height: 15em;
+  height: 20%;
   background-position: center;
-  box-shadow: 8px 4px 4px #84c7bd ;
-  color:#84c7bd;
+  box-shadow: 3px 2px 2px #f9ae9d ;
+  color:#ffda33;
   margin-bottom:1em;
   padding:1em;
   
 }
 .BannerImage > h1 {
-  padding: 2em;
+  margin: 0.5em;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
 }
 
 iframe {
-  border: 0; width: 350px; height: 470px;
+  border: 0; 
+  width: 100%; 
+  height: 470px;
+  margin:auto;
+}
+
+
+.socialLinksContainer {
+  display:flex;
+  border-radius: 15px 50px;
+  width:50%;
+  margin:auto;
+  padding:0.3em;
+  justify-content: space-evenly;
+  background-color: rgba(39, 2, 71, 0.7);
+
+
+}
+
+.headshotPhotoContainer img {
+  /* width: 500px;
+  height:750px; */
+  width: 100%;
+  height:100%;
+  margin: auto;
+  padding: 1em;
+  border-radius: 15%;
+  background-color: rgba(15, 1, 61, 0.7);
+}
+
+.linkText {
+
+  color:white;
 }
