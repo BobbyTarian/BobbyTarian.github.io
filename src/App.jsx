@@ -6,7 +6,7 @@ import Copyright from "./components/copyright";
 import MusicSection from './components/MusicSection';
 import BioSection from './components/BioSection';
 import ContactSection from './components/ContactSection';
-import BannerImage from './components/TopBannerImage';
+import BannerImage from './components/TopBannerSection';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -15,8 +15,9 @@ function App() {
   <div className='MainView'>
     <Navbar></Navbar>
     <BannerImage></BannerImage>
-    <MusicSection></MusicSection>
     <BioSection></BioSection>
+    <MusicSection></MusicSection>
+    
     <ContactSection></ContactSection>
     <Copyright></Copyright>
 
