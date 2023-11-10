@@ -198,12 +198,16 @@ code {
     width: 75%;
   }
 
-     .headshotPhotoContainer {
-       width: 400px;
-       height: calc(400px * var(--headshot-ratio));
-       margin: auto;
-       padding: 1em;
-     }
+  .BioText {
+  width: 75% ;
+  }
+
+  .headshotPhotoContainer {
+    width: 400px;
+    height: calc(400px * var(--headshot-ratio));
+    margin: auto;
+    padding: 1em;
+  }
   
 }
 
@@ -239,7 +243,7 @@ code {
       width: 90%;
   }
   .musicPlayerContainer {
-    width: 100%;
+    width: 85%;
   }
   .PlatformsDisplayMain{
     display: block;
@@ -252,12 +256,18 @@ code {
     margin: auto;
     padding: 1em;
   }
+
+  .BioText {
+    width: 85%;
+  }
 }
 
 
 @media screen and (max-width:400px) {
 
-
+  .BioText {
+      width: 85%;
+    }
   .headshotPhotoContainer {
     margin: auto;
     padding: 0.5em;
@@ -338,6 +348,6 @@ iframe {
 }
 
 .linkText {
-
+  margin-left:1em;
   color:white;
 }
