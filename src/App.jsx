@@ -7,6 +7,7 @@ import MusicSection from './components/MusicSection';
 import BioSection from './components/BioSection';
 import ContactSection from './components/ContactSection';
 import BannerImage from './components/TopBannerSection';
+import ShowsSection from './components/ShowsSection';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
     <BannerImage></BannerImage>
     <BioSection></BioSection>
     <MusicSection></MusicSection>
+    <ShowsSection></ShowsSection>
     
     <ContactSection></ContactSection>
     <Copyright></Copyright>

@@ -10,6 +10,7 @@ function navbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#Music"><span className="linkText">Music</span></Nav.Link>
+            <Nav.Link href="#Shows"><span className= "linkText">Shows</span> </Nav.Link>
             <Nav.Link href="#Bio"><span className="linkText">Bio</span></Nav.Link>
             <Nav.Link href="#Contact"><span className="linkText">Contact</span></Nav.Link>
           </Nav>

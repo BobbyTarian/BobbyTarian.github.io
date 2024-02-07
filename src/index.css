@@ -85,6 +85,7 @@ code {
   /* margin-bottom: 1em; */
 }
 
+
 .mainSection>h5 {
   font-family: "Dosis", sans-serif;
   font-weight: bold;
@@ -198,7 +199,7 @@ code {
 }
 
 @media screen and (min-width: 650px){
-  .BioSection, .musicSection {
+  .BioSection, .musicSection, .ShowsSection {
     width: 75%;
   }
 
@@ -218,7 +219,8 @@ code {
 @media screen and (min-width: 1500px) {
 
   .BioSection,
-  .musicSection {
+  .musicSection,
+  .ShowsSection {
     width: 50%;
   }
   .headshotPhotoContainer {
@@ -240,7 +242,7 @@ code {
     }
 }
 @media screen and (max-width:651px){
-  .BioSection {
+  .BioSection, .ShowsSection {
     width: 85%;
   }
   .musicSection {
@@ -286,6 +288,14 @@ code {
   margin-left: auto;
   margin-right: auto;
  
+}
+
+.ShowsSection{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ContactSection {
@@ -354,4 +364,29 @@ iframe {
 .linkText {
   margin-left:1em;
   color:white;
+}
+
+.ShowInfo {
+  display: flex;
+  justify-content: center;
+
+}
+
+.ShowInfo >* {
+  margin:0.5em;
+}
+
+.ShowsSection {
+  text-align: center;
+
+}
+
+.ShowsSection > h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 350%;
+  color: #ffda33;
+}
+
+.ShowLink {
+  color:aqua;
 }
