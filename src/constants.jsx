@@ -3,4 +3,6 @@ export const BANDCAMP_URL = "https://bobbytarian.bandcamp.com/album/moon-remains
 export const SOUNDCLOUD_URL = "https://soundcloud.com/bobbytarian"
 export const INSTAGRAM_URL = "https://www.instagram.com/spicybazooka/"
 export const FACEBOOK_URL = "https://www.facebook.com/BobbyTarian"
-export const TIKTOK_URL = ""
+export const TIKTOK_URL = "https://tiktok.com/@bobbytarian"
+export const APPLE_MUSIC_URL = "https://music.apple.com/ca/album/here-for-you/1732821902?i=1732821903"
+export const YOUTUBE_URL = "https://www.youtube.com/@bobbytarian"

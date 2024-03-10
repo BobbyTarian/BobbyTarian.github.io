@@ -129,12 +129,12 @@ code {
   font-size: x-large;
 }
 
-.MainView{
+.MainView , .mainLinkSection{
   background: rgb(39, 2, 71);
     background: radial-gradient(circle, rgba(39, 2, 71, 1) 0%, rgba(130, 94, 162, 1) 62%, rgba(0, 0, 0, 1) 91%);
 }
 
-.MainView > * {
+.mainLinkSection, .MainView > * {
   font-family: 'Raleway', sans-serif;
   font-family: 'Titillium Web', sans-serif;
   font-family: 'Work Sans', sans-serif;
@@ -143,6 +143,11 @@ code {
   
 }
 
+.mainLinkSection {
+  padding:1em;
+  margin: 0;
+  height: 100%
+}
 
 
 .navbar-brand {
@@ -213,7 +218,9 @@ code {
     margin: auto;
     padding: 1em;
   }
-  
+  .videoSection {
+    width: 75%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -233,6 +240,10 @@ code {
     margin: auto;
     width: 80%;
     height: 80%;
+  }
+  .videoSection {
+    margin:auto;
+    width:80%;
   }
 
     .musicPlayerContainer {
@@ -265,6 +276,10 @@ code {
 
   .BioText {
     width: 85%;
+  }
+
+  .videoSection {
+    width: 560px;
   }
 }
 
@@ -330,12 +345,12 @@ code {
   font-family: 'Libre Baskerville', serif;
 }
 
-iframe {
+/* iframe {
   border: 0; 
   width: 100%; 
   height: 470px;
   margin:auto;
-}
+} */
 
 
 .socialLinksContainer {
@@ -389,4 +404,41 @@ iframe {
 
 .ShowLink {
   color:aqua;
+}
+
+
+.videoSection {
+  display:block;
+  margin: auto;
+  width: 560px;
+}
+
+.videoSection > h2 {
+  text-align: center;
+}
+
+.mainLinkSection > h2 {
+  text-align: center;
+  color: #72dbd6;
+  margin:1em;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.buttonLink {
+  border: 2px solid #72dbd6;
+  border-radius: 14px;
+  padding: 1.5em;
+  display:flex;
+  margin:auto;
+  width:85%;
+  margin-bottom:1.5em;
+}
+
+.buttonAnchorTag{
+
+  font-size:250%;
+  color:#72dbd6;
+}
+.buttonLinkText{
+  margin-left:0.5em;
 }
