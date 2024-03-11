@@ -13,6 +13,7 @@ function navbar() {
             <Nav.Link href="#Shows"><span className= "linkText">Shows</span> </Nav.Link>
             <Nav.Link href="#Bio"><span className="linkText">Bio</span></Nav.Link>
             <Nav.Link href="#Contact"><span className="linkText">Contact</span></Nav.Link>
+            <Nav.Link href="#links"><span className="linkText">Links</span></Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
