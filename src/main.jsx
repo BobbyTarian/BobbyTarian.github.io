@@ -14,7 +14,7 @@ const router = createHashRouter([
     element: <App></App>,
   },
   {
-    path: "/links",
+    path: "links",
     element: <LinkView></LinkView>
   }
 ]);
