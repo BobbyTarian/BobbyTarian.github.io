@@ -11,6 +11,7 @@ const LinkView = () => {
   return (<div>
     <section className="mainLinkSection">
       <h2> Social Media and streaming links for Bobby Tarian</h2>
+      
         <ButtonLink url="https://www.youtube.com/watch?v=pX-PYqUUbJk" text="Here For You Lyric video" style={{color:"#E6E276"}}></ButtonLink>
         <ButtonLink url={SPOTIFY_URL} text="Spotify" icon={faSpotify} style={{color:"#1DB954"}}></ButtonLink>
         <ButtonLink url={BANDCAMP_URL} text="Bandcamp" icon={faBandcamp} style={{color:"#629aa9"}}></ButtonLink>
@@ -19,6 +20,7 @@ const LinkView = () => {
         <ButtonLink url={INSTAGRAM_URL} text="Instagram" icon={faInstagram} style={{color:"#C13584"}}></ButtonLink>
         <ButtonLink url={FACEBOOK_URL} text="Facebook" icon={faFacebook} style={{color:"#a2b5dd"}}></ButtonLink>
         <ButtonLink url={SOUNDCLOUD_URL} text="Soundcloud" icon={faSoundcloud} style={{color:"#F26F23"}}></ButtonLink>
+        <ButtonLink url={"/"} text= {"back to homepage"}> </ButtonLink>
 
         
         
