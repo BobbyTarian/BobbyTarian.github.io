@@ -1,6 +1,7 @@
 import { propTypes } from "react-bootstrap/esm/Image";
 const ShowInfoDisplay = (props) => {
-  if( props.ticketLink!= null ) {
+  const ticketLink = props.ticketLink || "";
+  if( ticketLink!= null && ticketLink.length > 0 ) {
 
   
 
