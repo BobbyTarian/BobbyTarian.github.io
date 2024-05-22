@@ -404,7 +404,7 @@ code {
 
 .ShowLink {
   color:aqua;
-  text-align: justify;
+  text-decoration: none;
 }
 
 
@@ -446,6 +446,7 @@ code {
 
 .noLink {
   color: rgb(0, 226, 226);
+  text-decoration: none;
 }
 
 .noLink:after {
