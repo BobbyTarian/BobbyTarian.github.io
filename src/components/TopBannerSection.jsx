@@ -16,10 +16,13 @@ const BannerImage = ()=> {
         setWidth(560);
     }
     };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
+    ['resize', 'load'].forEach( function(event){
+        window.addEventListener(event, handleResize);
+        return () => {
+      window.removeEventListener(event, handleResize);
     };
+    });
+    
   }, []);
 
     return (
