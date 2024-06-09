@@ -5,22 +5,17 @@ import StreamingPlatformsDisplay from "./StreamingPlatformsDisplay";
 
 const BannerImage = ()=> {
     const [width, setWidth] = useState(0);
-
-    useEffect(() => {
     const handleResize = () => {
-      // Perform actions on scroll
-      if ( window.visualViewport.width < 560 ) {
-        setWidth(window.visualViewport.width - 50);
+        if ( window.visualViewport.width < 560 ) {
+            setWidth(window.visualViewport.width - 50);
+        }
+        else {
+            setWidth(560);
+        }
     }
-    else {
-        setWidth(560);
-    }
-    };
-    ['load'].forEach( function(event){
-        window.addEventListener(event, handleResize);
-    });
-    
-  }, []);
+    useEffect(() => {
+        handleResize();
+    }, []);
 
     return (
         <div className="BannerImage" style={{backgroundImage: "url(" + bannerImage + ")", opacity:0.65}} id="Home">
