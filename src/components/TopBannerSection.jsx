@@ -16,23 +16,20 @@ const BannerImage = ()=> {
         setWidth(560);
     }
     };
-    ['resize', 'load'].forEach( function(event){
+    ['load'].forEach( function(event){
         window.addEventListener(event, handleResize);
     });
     
   }, []);
-    const videoSectionStyle = {
-        width: width,
-        height: 315
-    };
+
     return (
         <div className="BannerImage" style={{backgroundImage: "url(" + bannerImage + ")", opacity:0.65}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
             
-            <section className="videoSection" style={videoSectionStyle}>
-                <h2> Here For you lyric video</h2>
+            <section className="videoSection">
+                <h2> <a href="https://www.youtube.com/watch?v=pX-PYqUUbJk" target="_blank" rel="noreferrer">Here For you lyric video </a></h2>
                 <div className="youtubeVid">
-                    <iframe width={width} height="315" src="https://www.youtube.com/embed/pX-PYqUUbJk?si=uokqmZ7aZv2c7kyA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <iframe width={width} height="315" src="https://www.youtube.com/embed/pX-PYqUUbJk?si=uokqmZ7aZv2c7kyA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
                 
             </section>

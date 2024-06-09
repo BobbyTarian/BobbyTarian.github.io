@@ -220,6 +220,7 @@ code {
   }
   .videoSection {
     width: 75%;
+    
   }
 }
 
@@ -424,7 +425,9 @@ code {
   margin:1em;
   font-family: 'Libre Baskerville', serif;
 }
-
+h2 > a {
+  color: #ffda33;
+}
 .buttonLink {
   border: 2px solid #72dbd6;
   border-radius: 14px;
