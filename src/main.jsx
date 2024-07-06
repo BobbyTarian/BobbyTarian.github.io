@@ -7,6 +7,8 @@ import BannerImage from './components/TopBannerSection.jsx'
 import ShowsSection from './components/ShowsSection.jsx'
 import bioSection from './components/BioSection.jsx'
 import contactSection from './components/ContactSection.jsx'
+import EPKView from './pages/EPKView.jsx'
+import UnderConstruction from './pages/UnderConstruction.jsx'
 import './index.css'
 import {
   createHashRouter,
@@ -46,6 +48,12 @@ const router = createHashRouter([
     path: "links",
     element: <LinkView></LinkView>,
     errorElement: <LinkView></LinkView>
+  },
+  {
+    path: "epk",
+    element: <EPKView></EPKView>,
+    errorElement:<LinkView></LinkView>
+
   },
 
 ]);

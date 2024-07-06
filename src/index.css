@@ -47,6 +47,10 @@ code {
 
 .pageTitle {
   font-size: 500% ;
+  margin: 0.5em;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: #ffda33;
 }
 
 .customNav {
@@ -340,11 +344,6 @@ code {
   padding:1em;
   
 }
-.BannerImage > h1 {
-  margin: 0.5em;
-  text-align: center;
-  font-family: 'Libre Baskerville', serif;
-}
 
 /* iframe {
   border: 0; 
@@ -454,4 +453,45 @@ h2 > a {
 
 .noLink:hover {
   color: rgb(0, 226, 226);
+}
+
+
+.EPKMainSection a:hover {
+  color: rgb(115, 7, 121);
+}
+.sectionTitle {
+  text-align: center;
+  color:rgb(0, 226, 226);
+}
+.photosSection {
+  margin:auto;
+  display:block;
+  width:80%;
+  padding-bottom:2em;
+}
+.photosSection > a {
+  color: #ffda33;
+  text-align: center;
+  margin:auto;
+  display:block;
+
+}
+
+.latestShowSection {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 2em;
+}
+
+.underConstruction {
+  margin: auto;
+  display: block;
+  text-align: center;
+
+}
+
+.underConstruction > h1 {
+  padding : 2em;
+  text-align: center;
 }
