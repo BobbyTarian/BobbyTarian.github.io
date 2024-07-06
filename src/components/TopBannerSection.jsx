@@ -31,6 +31,10 @@ const BannerImage = ()=> {
             <div className="headshotPhotoContainer">
                 <img src={""+headshotImage} alt="" />
             </div>
+            <section className="latestShowSection">
+                <h2> July 12th at the Carrot</h2>
+                <p> ticket link is here : <a href="https://www.thecarrot.ca/event-shop/void-comp-bobby-tarian" target="_blank" rel="noreferrer">https://www.thecarrot.ca/event-shop/void-comp-bobby-tarian</a></p>
+            </section>
             <div className="socialLinksContainer">
                 <StreamingPlatformsDisplay></StreamingPlatformsDisplay>
             </div>

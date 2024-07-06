@@ -5,13 +5,11 @@ const ShowsSection = () => {
         <section className="ShowsSection" id="Shows">
             <h2 className="showHeader"> Upcoming Shows</h2>
             <div className="Show">
-                <ShowInfoDisplay location="124 Street Grand Market" date="June 9th, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
-                <ShowInfoDisplay location = "Friday Nights at the Grand Night Market" date= "June 21st" ticketLink = "https://124grandmarket.com/night-markets"></ShowInfoDisplay>
-                <ShowInfoDisplay location="124 Street Grand Market" date="June 23rd, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
-                <ShowInfoDisplay location = "Friday Nights at the Grand Night Market" date= "July 12th" ticketLink = "https://124grandmarket.com/night-markets"></ShowInfoDisplay>
+                <ShowInfoDisplay location = "Downtown Farmers Market (104th st.)" date="July 6th || 11:30-1:00pm" ticketLink="https://www.edmontondowntown.com/farmersmarket/"></ShowInfoDisplay>
+                <ShowInfoDisplay location = "The Carrot" date= "July 12th, 2024 || 7pm" ticketLink = "https://www.thecarrot.ca/event-shop/void-comp-bobby-tarian"></ShowInfoDisplay>
                 <ShowInfoDisplay location="124 Street Grand Market" date="July 14th, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
                 <ShowInfoDisplay location = "Friday Nights at the Grand Night Market" date= "July 26th" ticketLink = "https://124grandmarket.com/night-markets"></ShowInfoDisplay>
-                <ShowInfoDisplay location="124 Street Grand Market" date="July 28h, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>               
+                <ShowInfoDisplay location="124 Street Grand Market" date="July 28th, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>               
             </div>
           
             <br></br>
@@ -26,7 +24,10 @@ const ShowsSection = () => {
                 <ShowInfoDisplay location = "EPL MiR — Spring Showcase" ticketLink = "https://epl.bibliocommons.com/events/661edf0fe3e1ee30003a5e1a" date= "May 31st, 2024"></ShowInfoDisplay> 
                 <ShowInfoDisplay location = "Dive Bar: unplugged" date="June 5th 2024" ticketLink = "https://www.facebook.com/events/811262853969346"></ShowInfoDisplay>
                 <ShowInfoDisplay location = "Ottewell Farmers market" date=" June 6th 2024" ticketLink=""></ShowInfoDisplay>
-                <ShowInfoDisplay location = "Friday Nights at the Grand Night Market" date= "June 7th" ticketLink = "https://124grandmarket.com/night-markets"></ShowInfoDisplay>
+                <ShowInfoDisplay location = "Friday Nights at the Grand Night Market" date= "June 7th 2024" ticketLink = "https://124grandmarket.com/night-markets"></ShowInfoDisplay>
+                <ShowInfoDisplay location="124 Street Grand Market" date="June 9th, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
+                <ShowInfoDisplay location = "Friday Nights at the Grand Night Market" date= "June 21st" ticketLink = "https://124grandmarket.com/night-markets"></ShowInfoDisplay>
+                <ShowInfoDisplay location="124 Street Grand Market" date="June 23rd, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
             </div>
 
         </section>

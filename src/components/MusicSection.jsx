@@ -14,7 +14,7 @@ const musicSection = () => {
             you can catch him performing at various open mics in Edmonton.
             Currently, Bobby is working on a new album.</p> */}
             </div>
-            
+            <iframe style={{border: 0, width: "80%", height: "120px;", margin:"auto", display:"block"}} src="https://bandcamp.com/EmbeddedPlayer/track=2935040232/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://bobbytarian.bandcamp.com/track/here-for-you">Here For You by Bobby Tarian</a></iframe>
             
         </section>
     );
