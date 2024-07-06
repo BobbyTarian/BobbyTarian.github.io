@@ -3,8 +3,9 @@ import { faBandcamp } from '@fortawesome/free-brands-svg-icons';
 import { faSoundcloud } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import PlatformDisplayLink from './PlatformDisplayLink';
-import { SPOTIFY_URL, BANDCAMP_URL, FACEBOOK_URL, INSTAGRAM_URL, SOUNDCLOUD_URL} from '../constants';
+import { SPOTIFY_URL, BANDCAMP_URL, FACEBOOK_URL, INSTAGRAM_URL, SOUNDCLOUD_URL, YOUTUBE_URL} from '../constants';
 
 const streamingPlatformsDisplay = () => {
     
@@ -15,6 +16,7 @@ const streamingPlatformsDisplay = () => {
             <PlatformDisplayLink icon = {faSoundcloud} link={SOUNDCLOUD_URL}></PlatformDisplayLink>
             <PlatformDisplayLink icon = {faInstagram} link={INSTAGRAM_URL}></PlatformDisplayLink>
             <PlatformDisplayLink icon = {faFacebook} link={FACEBOOK_URL}></PlatformDisplayLink>
+            <PlatformDisplayLink icon = {faYoutube} link = {YOUTUBE_URL}></PlatformDisplayLink>
         </div>
     );
 }
