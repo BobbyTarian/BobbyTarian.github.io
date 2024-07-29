@@ -46,15 +46,16 @@ const EPKView = ()=> {
 
         <h2 className="sectionTitle"> Short Bio</h2>
         <BioSection></BioSection>
+        <br></br>
         <section className="BioDownload"></section>
 
-        <h2 className="sectionTitle">Long Bio</h2>
+        {/* <h2 className="sectionTitle">Long Bio</h2>
 
         <section className="BioSection" id="Bio">
             <div className="BioText">
                This is still being worked on! sorry! 
             </div> 
-    </section>
+    </section> */}
 
     <section className="BioDownload"></section>
         
