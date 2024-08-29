@@ -32,7 +32,6 @@ const BannerImage = ()=> {
                 <img src={""+headshotImage} alt="" />
             </div>
             <section className="latestShowSection">
-                <h2><a href="https://www.facebook.com/events/s/dj-silkr0ad-bobby-tarian-neon-/1193683891680114/?mibextid=9VsGKo&rdid=Ws6YoQ9p1PcOpxcr&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FS5BU2hb155AnKaqA%2F%3Fmibextid%3D9VsGKo"> August 2nd at Blakbar</a> </h2>
             </section>
             <div className="socialLinksContainer">
                 <StreamingPlatformsDisplay></StreamingPlatformsDisplay>
