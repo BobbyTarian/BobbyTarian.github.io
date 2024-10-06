@@ -6,11 +6,9 @@ const ShowsSection = () => {
             <h2 className="showHeader"> Upcoming Shows</h2>
             <div className="Show">
                               
-                <ShowInfoDisplay location = "Strathcona Farmers' market" date= "August 24th, 2024 || 9:30-11:30am" ticketLink="https://osfm.ca/"></ShowInfoDisplay>
-                <ShowInfoDisplay location="124 Street Grand Market" date="August 25th, 2024 || 11:30-1 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
-                <ShowInfoDisplay location="Golden Grove Gatherings at Felice Cafe" date="August 31st, 2024 || 7pm" ticketLink="https://www.eventbrite.ca/e/golden-grove-gatherings-saturday-tickets-971271427987"></ShowInfoDisplay>
-                {/* <ShowInfoDisplay location="???" date="September 14th -15th" ticketLink=""></ShowInfoDisplay> */}
-                {/* <ShowInfoDisplay location="After Hours at the Commodore" date="October 13th, 2024" ticketLink=""> </ShowInfoDisplay> */}
+                
+                <ShowInfoDisplay location="After Hours at the Commodore" date="October 6th, 2024 || 6:30pm " ticketLink="https://www.eventbrite.com/e/after-hours-at-the-commodore-wbobby-tarian-and-ryan-smith-tickets-1036300973107?aff=ebdssbdestsearch"> </ShowInfoDisplay>
+                <ShowInfoDisplay location = "Dive Bar  with Cooking Balconys and Kentucky" date= "October 24th, 2024 || Doors 7pm , Music 8pm" ticketLink="https://www.ticketleap.events/tickets/blondie-presents/CookingBalconys"></ShowInfoDisplay>
 
             </div>
           
@@ -18,7 +16,10 @@ const ShowsSection = () => {
             <div className="pastShow">
                   <h2>Past Shows</h2>
 
-             <ShowInfoDisplay location="Felice Cafe" ticketLink = "https://www.eventbrite.ca/e/felice-noir-bobby-tarian-tayler-grace-tickets-800355172867?aff=oddtdtcreator" date="Feb 16, 2024"></ShowInfoDisplay>
+                <ShowInfoDisplay location = "Strathcona Farmers' market" date= "August 24th, 2024 || 9:30-11:30am" ticketLink="https://osfm.ca/"></ShowInfoDisplay>
+                <ShowInfoDisplay location="124 Street Grand Market" date="August 25th, 2024 || 11:30-1 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
+                <ShowInfoDisplay location="Golden Grove Gatherings at Felice Cafe" date="August 31st, 2024 || 7pm" ticketLink="https://www.eventbrite.ca/e/golden-grove-gatherings-saturday-tickets-971271427987"></ShowInfoDisplay>
+                <ShowInfoDisplay location="Felice Cafe" ticketLink = "https://www.eventbrite.ca/e/felice-noir-bobby-tarian-tayler-grace-tickets-800355172867?aff=oddtdtcreator" date="Feb 16, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location="BLAKBAR" ticketLink = "https://www.facebook.com/events/7051742518271512/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A1878852045903015%7D%7D]%22%7D" date = "Feb 23, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location="Rocking 4 Dollars at Buckingham" ticketLink = "" date="Mar 25, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location= "124 Street Grand Market" ticketLink = "https://124grandmarket.com/thursday-1" date="May 9th, 2024 || 6-8pm"></ShowInfoDisplay>
