@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import bannerImage from "../assets/bannerImage.jpg";
+import layingInGrass from "../assets/layingInGrass.jpg";
+import EveryWhereCoverArt from "../assets/EveryWhereCoverArt.png";
 import headshotImage from "../assets/XPRO8190-cropped.jpg";
 import StreamingPlatformsDisplay from "./StreamingPlatformsDisplay";
 
@@ -18,24 +20,31 @@ const BannerImage = ()=> {
     }, []);
 
     return (
-        <div className="BannerImage" style={{backgroundImage: "url(" + bannerImage + ")", opacity:0.65}} id="Home">
+
+        <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.65}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
-            
+            <div className="coverArtContainer">
+                <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/everywhere-2" target="_blank" rel="noreferrer">Everywhere out December 12th </a></h2>
+                <div className="coverArt" style={{backgroundImage: "url(" + EveryWhereCoverArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
+                </div>
             <section className="videoSection">
-                <h2> <a href="https://www.youtube.com/watch?v=pX-PYqUUbJk" target="_blank" rel="noreferrer">Here For you lyric video </a></h2>
+                
+                
                 <div className="youtubeVid">
-                    <iframe width={width} height="315" src="https://www.youtube.com/embed/pX-PYqUUbJk?si=uokqmZ7aZv2c7kyA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    {/* <iframe width={width} height="315" src="https://www.youtube.com/embed/pX-PYqUUbJk?si=uokqmZ7aZv2c7kyA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+                    
                 </div>
                 
             </section>
-            <div className="headshotPhotoContainer">
+            {/* <div className="headshotPhotoContainer">
                 <img src={""+headshotImage} alt="" />
-            </div>
+            </div> */}
             <section className="latestShowSection">
             </section>
-            <div className="socialLinksContainer">
+            {/* <div className="socialLinksContainer">
                 <StreamingPlatformsDisplay></StreamingPlatformsDisplay>
-            </div>
+            </div> */}
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"></meta>
         </div>
     );
 }

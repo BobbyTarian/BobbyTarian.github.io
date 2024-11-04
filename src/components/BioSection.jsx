@@ -3,23 +3,16 @@ const bioSection = ()=> {
         return (
             <section className="BioSection" id="Bio">
                 <div className="BioText">
-                    Bobby is a singer-songwriter from Edmonton, Alberta.
-                    Whether it’s weaved directly into his lyrics or being drawn on for inspiration, Bobby relies on the prairie sunsets and landscapes of his home province.
-                    Though he now accompanies his singing with an electric guitar, Bobby spent most of his adolescence playing and teaching classical guitar.
-                    By combining his love for classical guitar with his love for rock and folk music, he crafts his tunes using his fingerpicking and observational lyricism.
-                    What comes through are his playful melodies along with lyrics that always have a hidden meaning behind the seemingly ordinary.
-                    Bobby’s style is influenced by the likes of Sufjan Stevens, Tame Impala, The Strokes, and Andy Shauf. 
+                    Bobby draws on the expansive landscapes and golden-hued prairie sunsets of his home province of Alberta for inspiration – whether weaved into candid lyrics or embodied through the ethereal melodies. Bobby pushes the boundaries of folk music by incorporating synths, manipulating found sound, and employs a palette of effects to achieve a sound like out of a dream. Pulling from a decade of experience with classical guitar, Bobby favors intricate fingerpicking techniques along with layered observational lyricism to explore vulnerability, societal issues, introspection, and emotional well-being. Bobby is influenced by the emotional production of Sufjan Stevens, the rawness of The Strokes, and the narrative-driven storytelling of Andy Shauf. 
                     <br></br>
                     <br></br>
-                    He released his first EP in 2020, Moon Remains Seasons Change and released his single “Here For You” in March 2024.
-                    His song “Remember” is featured in Michelle Vance Hehir’s play : “One Polaroid”.
+                    Bobby Tarian released his first EP, Moon Remains Seasons Change in 2020, followed with “Here For You” in March 2024. His song “Remember” is featured in Michelle Vance Hehir’s play, One Polaroid. 
+                    <br></br>
+                    <br></br>
                     Currently, Bobby is working on his first full length album. 
 
                     <br></br>
                     <hr></hr>
-                    Nostalgia, dreamscapes, sweet memories - Bobby Tarian ignites imagination through his playful melodies and lyricism.
-                    The homegrown Alberta boy melds synth-pop into a singer-songwriter style. 
-                    Moon Remains, Seasons Change is Bobby Tarian’s debut EP, released November 2020. 
                 </div>
             </section>
         );

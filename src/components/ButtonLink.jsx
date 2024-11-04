@@ -6,7 +6,7 @@ const ButtonLink = (props) => {
     return (
         <div className="buttonLink">
             
-            <a className="buttonAnchorTag" href={props.url} style={props.style} target="_blank">
+            <a className="buttonAnchorTag" href={props.url} style={props.style} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon = {props.icon} size="1x"></FontAwesomeIcon>
                  <span className="buttonLinkText">{props.text}</span>
             </a>
