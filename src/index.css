@@ -50,7 +50,7 @@ code {
   margin: 0.5em;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  color: #ffda33;
+  color: #E3B505 ;
 }
 
 .customNav {
@@ -73,6 +73,11 @@ code {
   .mainSection {
     scroll-margin-top: 8em;
   }
+  .coverArt {
+    width: 400px;
+    height: 400px;
+  }
+
 }
 
 @media (min-width: 580px) {
@@ -183,6 +188,7 @@ code {
 
 .PlatformDisplayLink{
   margin: 0em 1.25em 0em 0em;
+  padding:0.25em;
 }
 
 .musicSection {
@@ -208,7 +214,7 @@ code {
 }
 
 @media screen and (min-width: 650px){
-  .BioSection, .musicSection, .ShowsSection {
+  .BioSection, .musicSection, .ShowsSection, .MediaSection {
     width: 75%;
   }
 
@@ -222,6 +228,10 @@ code {
     margin: auto;
     padding: 1em;
   }
+  .coverArt {
+    width: 400px;
+    height: calc(400px);
+  }
   .videoSection {
     width: 75%;
     
@@ -232,7 +242,8 @@ code {
 
   .BioSection,
   .musicSection,
-  .ShowsSection {
+  .ShowsSection,
+  .MediaSection {
     width: 50%;
   }
   .headshotPhotoContainer {
@@ -258,7 +269,7 @@ code {
     }
 }
 @media screen and (max-width:651px){
-  .BioSection, .ShowsSection {
+  .BioSection, .ShowsSection, .MediaSection {
     width: 85%;
   }
   .musicSection {
@@ -286,6 +297,10 @@ code {
   .videoSection {
     width: 560px;
   }
+    .coverArt {
+      width: 400px;
+      height: 400px;
+    }
 }
 
 
@@ -298,6 +313,10 @@ code {
     margin: auto;
     padding: 0.5em;
   }
+    .coverArt {
+      width: 200px;
+      height: 200px;
+    }
 }
 
 
@@ -316,6 +335,24 @@ code {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.MediaSection {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.MediaSection > p > a {
+color:#f9ae9d;
+
+}
+.MediaSection>h3 {
+  color:#e3d405;
+  margin:auto;
+  text-align: center;
 }
 
 .ContactSection {
@@ -339,7 +376,7 @@ code {
   height: 20%;
   background-position: center;
   box-shadow: 3px 2px 2px #f9ae9d ;
-  color:#ffda33;
+  color:#E3B505;
   margin-bottom:1em;
   padding:1em;
   
@@ -399,7 +436,7 @@ code {
 .ShowsSection > h2 {
   font-family: 'Libre Baskerville', serif;
   font-size: 350%;
-  color: #ffda33;
+  color: #E3B505;
 }
 
 .ShowLink {
@@ -421,7 +458,7 @@ code {
   font-family: 'Libre Baskerville', serif;
 }
 h2 > a {
-  color: #ffda33;
+  color: #E3B505;
 }
 .buttonLink {
   border: 2px solid #72dbd6;
@@ -470,7 +507,7 @@ h2 > a {
   padding-bottom:2em;
 }
 .photosSection > a {
-  color: #ffda33;
+  color: #f9ae9d;
   text-align: center;
   margin:auto;
   display:block;
@@ -495,3 +532,26 @@ h2 > a {
   padding : 2em;
   text-align: center;
 }
+
+.LivePerformanceSection {
+
+  text-align: center;
+  margin:auto;
+
+
+}
+
+.LivePerformanceSection > video {
+
+width:500px;
+
+}
+
+.coverArtContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+

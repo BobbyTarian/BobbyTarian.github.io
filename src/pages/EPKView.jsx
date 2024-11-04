@@ -1,10 +1,13 @@
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "../components/navbar";
 import BioSection from "../components/BioSection";
 import MusicSection from '../components/MusicSection';
 import ContactSection from '../components/ContactSection.jsx'
 import Copyright from "../components/copyright.jsx";
+import ShowsSection from "../components/ShowsSection.jsx";
+import LivePerformanceSection from "../components/LivePerformanceSection.jsx";
+
 const EPKView = ()=> {
 
     const [index, setIndex] = useState(0);
@@ -33,15 +36,40 @@ const EPKView = ()=> {
             setIndex(0);
         }
     };
+    const { pathname } = useLocation();
+    useEffect(() => {
+            document.documentElement.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "instant", // Optional if you want to skip the scrolling animation
+            });
+    }, [pathname])
 
     return (
     <div className="EPKRootDiv MainView">
         <Navbar></Navbar>
         <section className ="EPKMainSection" >
         <h1 className="pageTitle">Bobby Tarian</h1>
+        <section className="ButtonSection">
+        </section>
         <section className="photosSection">
 <h2 className="sectionTitle"> dropbox link for photos</h2>
         <a href="https://www.dropbox.com/scl/fo/txayennwc1b6zpog9o0yg/AExkY8RD44ylOZWZlNTQXGg?rlkey=gp7yd9gasxhd0sdm7ixu50zlj&e=1&st=kdhzbpso&dl=0" target="_blank" rel="noreferrer" > CLICK HERE FOR THE DROPBOX FOLDER WITH DOWNLOADABLE PHOTOS</a>
+        </section>
+        <section className="videoSection">
+        
+        </section>
+
+        <section className="MusicEPKSection">
+            <MusicSection></MusicSection>
+        </section>
+
+        <section className="MediaSection">
+            <h3> Media </h3>
+            <br></br>
+            <p><i>Bobby Tarian fuses indie rock and bedroom pop into a dreamy landscape of introspective yearnings and deep thought self-evaluation.</i></p>
+            <p> - Cups and Cakes podcast</p>
+            <p><a href="https://www.cupsncakespod.com/news/2020/10/25/single-premiere-bobby-tarian-ghost" target='_blank' rel="noreferrer">https://www.cupsncakespod.com/news/2020/10/25/single-premiere-bobby-tarian-ghost</a></p>
         </section>
 
         <h2 className="sectionTitle"> Short Bio</h2>
@@ -58,14 +86,14 @@ const EPKView = ()=> {
     </section> */}
 
     <section className="BioDownload"></section>
-        
+
+    <LivePerformanceSection></LivePerformanceSection>
+
     <section className = "NoteablePerformances">
-
+            <ShowsSection></ShowsSection>
     </section>
 
-    <section className="MusicEPKSection">
-        <MusicSection></MusicSection>
-    </section>
+
        
     <section className ="PhotosDownload"></section>
             
