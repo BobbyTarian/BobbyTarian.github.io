@@ -15,6 +15,7 @@ const ShowsSection = () => {
             <br></br>
             <div className="pastShow">
                   <h2>Past Shows</h2>
+                <ShowInfoDisplay location="Felice Cafe Single Release with David Henneberg and Esther Forseth" date="December 13th, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location = "Dive Bar  with Cooking Balconys and Kentucky" date= "October 24th, 2024 || Doors 7pm , Music 8pm" ticketLink="https://www.ticketleap.events/tickets/blondie-presents/CookingBalconys"></ShowInfoDisplay>
                 <ShowInfoDisplay location="After Hours at the Commodore" date="October 6th, 2024 || 6:30pm " ticketLink="https://www.eventbrite.com/e/after-hours-at-the-commodore-wbobby-tarian-and-ryan-smith-tickets-1036300973107?aff=ebdssbdestsearch"> </ShowInfoDisplay>
                 <ShowInfoDisplay location="Golden Grove Gatherings at Felice Cafe" date="August 31st, 2024 || 7pm" ticketLink="https://www.eventbrite.ca/e/golden-grove-gatherings-saturday-tickets-971271427987"></ShowInfoDisplay>
@@ -24,7 +25,7 @@ const ShowsSection = () => {
                 <ShowInfoDisplay location ="Blakbar" date="August 2nd, 2024" ticketLink="https://www.facebook.com/events/s/dj-silkr0ad-bobby-tarian-neon-/1193683891680114/?mibextid=9VsGKo&rdid=Cfynx9Twp4DrUllu&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FS5BU2hb155AnKaqA%2F%3Fmibextid%3D9VsGKo" ></ShowInfoDisplay>
                 <ShowInfoDisplay location="124 Street Grand Market" date="July 28th, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay> 
                 <ShowInfoDisplay location = "Strathcona Farmers' market" date= "July 27th, 2024 12-2pm" ticketLink="https://osfm.ca/"></ShowInfoDisplay>
-                                <ShowInfoDisplay location = "The Carrot" date= "July 12th, 2024 || 7pm" ticketLink = "https://www.thecarrot.ca/event-shop/void-comp-bobby-tarian"></ShowInfoDisplay>
+                <ShowInfoDisplay location = "The Carrot" date= "July 12th, 2024 || 7pm" ticketLink = "https://www.thecarrot.ca/event-shop/void-comp-bobby-tarian"></ShowInfoDisplay>
                 <ShowInfoDisplay location = "Downtown Farmers Market (104th st.)" date="July 6th, 2024 || 11:30-1:00pm" ticketLink="https://www.edmontondowntown.com/farmersmarket/"></ShowInfoDisplay>
                 <ShowInfoDisplay location="124 Street Grand Market" date="June 23rd, 2024 || 1-3 pm" ticketLink="https://124grandmarket.com/sunday"></ShowInfoDisplay>
                 <ShowInfoDisplay location = "Friday Nights at the Grand Night Market" date= "June 21st" ticketLink = "https://124grandmarket.com/night-markets"></ShowInfoDisplay>

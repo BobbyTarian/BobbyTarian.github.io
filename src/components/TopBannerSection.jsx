@@ -27,11 +27,12 @@ const BannerImage = ()=> {
                 <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/everywhere-2" target="_blank" rel="noreferrer">Everywhere out December 12th </a></h2>
                 <div className="coverArt" style={{backgroundImage: "url(" + EveryWhereCoverArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
                 </div>
+                <br></br>
             <section className="videoSection">
                 
                 
                 <div className="youtubeVid">
-                    {/* <iframe width={width} height="315" src="https://www.youtube.com/embed/pX-PYqUUbJk?si=uokqmZ7aZv2c7kyA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+                    <iframe width={width} height="315" src="https://www.youtube.com/embed/jdhxJ5taT9g?si=7_Bjiw1vFxd-qiNT"  title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     
                 </div>
                 

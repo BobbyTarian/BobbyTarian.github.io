@@ -11,8 +11,8 @@ const LinkView = () => {
   return (<div>
     <section className="mainLinkSection">
       <h2> Social Media and streaming links for Bobby Tarian</h2>
-      
-        <ButtonLink url="https://www.youtube.com/watch?v=pX-PYqUUbJk" text="Here For You Lyric video" style={{color:"#E6E276"}}></ButtonLink>
+        <ButtonLink  url ="https://open.spotify.com/track/6qMOXKJTdrlUKnMsv7RcZH?si=5ae7b71f2f914b86" text='"Everywhere" - on spotify' style={{color:"#62de7f"}}></ButtonLink>
+        <ButtonLink url="https://www.youtube.com/watch?v=jdhxJ5taT9g" text="Everywhere - music video" style={{color:"#E6E276"}}></ButtonLink>
         <ButtonLink url={SPOTIFY_URL} text="Spotify" icon={faSpotify} style={{color:"#1DB954"}}></ButtonLink>
         <ButtonLink url={BANDCAMP_URL} text="Bandcamp" icon={faBandcamp} style={{color:"#629aa9"}}></ButtonLink>
         <ButtonLink url={APPLE_MUSIC_URL} text="Apple Music" icon={faApple} style={{color:"#c2cad7"}}></ButtonLink>
