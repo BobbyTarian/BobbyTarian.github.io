@@ -15,6 +15,7 @@ const ShowsSection = () => {
             <br></br>
             <div className="pastShow">
                   <h2>Past Shows</h2>
+                <ShowInfoDisplay location="The Red Door" date="February 21st, 2025" ticketLink=""></ShowInfoDisplay>
                 <ShowInfoDisplay location="Felice Cafe Single Release with David Henneberg and Esther Forseth" date="December 13th, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location = "Dive Bar  with Cooking Balconys and Kentucky" date= "October 24th, 2024 || Doors 7pm , Music 8pm" ticketLink="https://www.ticketleap.events/tickets/blondie-presents/CookingBalconys"></ShowInfoDisplay>
                 <ShowInfoDisplay location="After Hours at the Commodore" date="October 6th, 2024 || 6:30pm " ticketLink="https://www.eventbrite.com/e/after-hours-at-the-commodore-wbobby-tarian-and-ryan-smith-tickets-1036300973107?aff=ebdssbdestsearch"> </ShowInfoDisplay>

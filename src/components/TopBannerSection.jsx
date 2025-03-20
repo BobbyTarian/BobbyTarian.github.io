@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
-import bannerImage from "../assets/bannerImage.jpg";
 import layingInGrass from "../assets/layingInGrass.jpg";
 import EveryWhereCoverArt from "../assets/EveryWhereCoverArt.png";
-import headshotImage from "../assets/XPRO8190-cropped.jpg";
-import StreamingPlatformsDisplay from "./StreamingPlatformsDisplay";
+import ADreamInLiminalHazeArt from "../assets/ADreamInLiminalHaze-COVER-ART.png";
 
 const BannerImage = ()=> {
     const [width, setWidth] = useState(0);
@@ -24,11 +22,11 @@ const BannerImage = ()=> {
         <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.65}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
             <div className="coverArtContainer">
-                <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/everywhere-2" target="_blank" rel="noreferrer">Everywhere out December 12th </a></h2>
-                <div className="coverArt" style={{backgroundImage: "url(" + EveryWhereCoverArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
+                <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/a-dream-in-liminal-haze" target="_blank" rel="noreferrer">A Dream in Liminal Haze - out March 28th</a></h2>
+                <div className="coverArt" style={{backgroundImage: "url(" + ADreamInLiminalHazeArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
                 </div>
                 <br></br>
-            <section className="videoSection">
+            {/* <section className="videoSection">
                 
                 
                 <div className="youtubeVid">
@@ -36,7 +34,7 @@ const BannerImage = ()=> {
                     
                 </div>
                 
-            </section>
+            </section> */}
             {/* <div className="headshotPhotoContainer">
                 <img src={""+headshotImage} alt="" />
             </div> */}
