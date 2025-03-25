@@ -6,3 +6,8 @@ export const FACEBOOK_URL = "https://www.facebook.com/BobbyTarian"
 export const TIKTOK_URL = "https://tiktok.com/@bobbytarian"
 export const APPLE_MUSIC_URL = "https://music.apple.com/ca/album/here-for-you/1732821902?i=1732821903"
 export const YOUTUBE_URL = "https://www.youtube.com/@bobbytarian"
+
+export const LIMINAL_HAZE_APPLE_URL = "https://music.apple.com/us/album/a-dream-in-liminal-haze-single/1802400325"
+export const LIMINAL_HAZE_SPOTIFY_URI = "spotify:album:7KswIcAK0aMuHX1LyqGuyY"
+export const LIMINAL_HAZE_YOUTUBE_URL = "https://www.youtube.com/playlist?list=OLAK5uy_lEBaqY1O31ofhhKZWhDQ5XM8mJIT91x9s"
+export const LIMINAL_HAZE_YOUTUBE_MUSIC_URL = "https://music.youtube.com/playlist?list=OLAK5uy_lEBaqY1O31ofhhKZWhDQ5XM8mJIT91x9s"
