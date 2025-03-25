@@ -11,7 +11,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faApple } from "@fortawesome/free-brands-svg-icons";
 import layingInGrass from "../assets/layingInGrass.jpg";
-import MetaPixel from "../utils/Meta/metaPixel";
+import MetaPixel from "../utils/metaPixel";
 
 const LinkView = () => {
   return (<div className="linkPageBackground" >
