@@ -46,6 +46,8 @@ jobs:
         with:
           # Upload dist repository
           path: "./dist"
+          # metaPixelID
+          metaPixelID: ${{secrets.META_PIXEL_ID}}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
