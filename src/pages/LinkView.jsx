@@ -11,12 +11,13 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faApple } from "@fortawesome/free-brands-svg-icons";
 import layingInGrass from "../assets/layingInGrass.jpg";
+import ADreamInLiminalHazeCOVERART from "../assets/ADreamInLiminalHaze-COVER-ART.png";
 import MetaPixel from "../utils/metaPixel";
 
 const LinkView = () => {
   return (<div className="linkPageBackground" >
     <MetaPixel></MetaPixel>
-    <section className="mainLinkSection" >
+    <section className="mainLinkSection" style={{backgroundImage:"url("+ADreamInLiminalHazeCOVERART+ ")"}}>
       <div className="DarkSeeThroughBackground">
         <h2 className="linkPageHeaderText"> A Dream in Liminal Haze - Bobby Tarian</h2>
       </div>
