@@ -54,11 +54,11 @@ code {
 }
 
 .pageTitle {
-  font-size: 500% ;
+  font-size: 500%;
   margin: 0.5em;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  color: #E3B505 ;
+  color: #E3B505;
 }
 
 .customNav {
@@ -68,7 +68,7 @@ code {
   background: rgb(39, 2, 71);
   background: linear-gradient(90deg, rgba(39, 2, 71, 1) 6%, rgba(36, 3, 75, 1) 64%, rgba(0, 13, 124, 1) 87%, rgba(212, 74, 211, 1) 100%);
   box-shadow: 1px 1px 2px rgb(39, 1, 88);
-  
+
 }
 
 .mainSection {
@@ -81,6 +81,7 @@ code {
   .mainSection {
     scroll-margin-top: 8em;
   }
+
   .coverArt {
     width: 400px;
     height: 400px;
@@ -147,10 +148,12 @@ code {
   font-size: x-large;
 }
 
-.MainView,.linkPageBackground  {
+.MainView,
+.linkPageBackground {
   background: rgb(39, 2, 71);
   background: radial-gradient(circle, rgba(39, 2, 71, 1) 0%, rgba(130, 94, 162, 1) 62%, rgba(0, 0, 0, 1) 91%);
 }
+
 .mainLinkSection {
   background: rgba(95, 18, 238, 0.2);
   background-image: url("src/assets/ADreamInLiminalHaze-COVER-ART.png");
@@ -161,17 +164,18 @@ code {
 
 }
 
-.mainLinkSection, .MainView > * {
+.mainLinkSection,
+.MainView>* {
   font-family: 'Raleway', sans-serif;
   font-family: 'Titillium Web', sans-serif;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
-  color:#c3c9c1;
-  
+  color: #c3c9c1;
+
 }
 
 .mainLinkSection {
-  padding:1em;
+  padding: 1em;
   margin: 0;
   height: 100%
 }
@@ -182,13 +186,13 @@ code {
 }
 
 .copyRightBanner {
-  padding:0.5em 0.5em 0.5em 1%;
+  padding: 0.5em 0.5em 0.5em 1%;
   background: rgba(5, 14, 0, 0.7);
   color: white;
 }
 
 
-.copyRightText{
+.copyRightText {
   font-size: large;
   font-weight: 400;
 
@@ -204,9 +208,9 @@ code {
 
 }
 
-.PlatformDisplayLink{
+.PlatformDisplayLink {
   margin: 0em 1.25em 0em 0em;
-  padding:0.25em;
+  padding: 0.25em;
 }
 
 .musicSection {
@@ -231,13 +235,17 @@ code {
   height: 50%;
 }
 
-@media screen and (min-width: 650px){
-  .BioSection, .musicSection, .ShowsSection, .MediaSection {
+@media screen and (min-width: 650px) {
+
+  .BioSection,
+  .musicSection,
+  .ShowsSection,
+  .MediaSection {
     width: 75%;
   }
 
   .BioText {
-  width: 75% ;
+    width: 75%;
   }
 
   .headshotPhotoContainer {
@@ -246,13 +254,15 @@ code {
     margin: auto;
     padding: 1em;
   }
+
   .coverArt {
     width: 400px;
     height: calc(400px);
   }
+
   .videoSection {
     width: 75%;
-    
+
   }
 
 }
@@ -265,43 +275,54 @@ code {
   .MediaSection {
     width: 50%;
   }
+
   .headshotPhotoContainer {
     width: 500px;
     height: calc(500px * var(--headshot-ratio));
     margin: auto;
     padding: 1em;
   }
+
   .BioText {
     margin: auto;
     width: 80%;
     height: 80%;
   }
+
   .videoSection {
-    margin:auto;
-    width:80%;
+    margin: auto;
+    width: 80%;
   }
 
-    .musicPlayerContainer {
-      margin: auto;
-      width: 350px;
-      margin-bottom:1em;
-    }
+  .musicPlayerContainer {
+    margin: auto;
+    width: 350px;
+    margin-bottom: 1em;
+  }
 }
-@media screen and (max-width:651px){
-  .BioSection, .ShowsSection, .MediaSection {
+
+@media screen and (max-width:651px) {
+
+  .BioSection,
+  .ShowsSection,
+  .MediaSection {
     width: 85%;
   }
+
   .musicSection {
-      width: 90%;
+    width: 90%;
   }
+
   .musicPlayerContainer {
     width: 85%;
   }
-  .PlatformsDisplayMain{
+
+  .PlatformsDisplayMain {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
   .headshotPhotoContainer {
     width: 300px;
     height: calc(300px * var(--headshot-ratio));
@@ -321,6 +342,7 @@ code {
     width: 400px;
     height: 400px;
   }
+
   .mainLinkSection {
 
     background-size: contain;
@@ -331,29 +353,31 @@ code {
 @media screen and (max-width:400px) {
 
   .BioText {
-      width: 85%;
-    }
+    width: 85%;
+  }
+
   .headshotPhotoContainer {
     margin: auto;
     padding: 0.5em;
   }
-    .coverArt {
-      width: 200px;
-      height: 200px;
-    }
+
+  .coverArt {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 
-.BioSection{
+.BioSection {
   margin-top: 2em;
   margin-bottom: 2em;
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
+
 }
 
-.ShowsSection{
+.ShowsSection {
   margin-top: 2em;
   margin-bottom: 2em;
   display: block;
@@ -369,41 +393,43 @@ code {
   margin-right: auto;
 
 }
-.MediaSection > p > a {
-color:#f9ae9d;
+
+.MediaSection>p>a {
+  color: #f9ae9d;
 
 }
+
 .MediaSection>h3 {
-  color:#e3d405;
-  margin:auto;
+  color: #e3d405;
+  margin: auto;
   text-align: center;
 }
 
 .ContactSection {
   background: rgba(5, 14, 0, 0.7);
-  color: white; 
-  padding:1em;
+  color: white;
+  padding: 1em;
 }
 
-.ContactSection > a:link {
+.ContactSection>a:link {
   color: rgb(172, 133, 215);
 }
 
-.PlatformDisplayLink{
+.PlatformDisplayLink {
 
-  color:rgb(243, 30, 172);
-  margin:0.5em;
+  color: rgb(243, 30, 172);
+  margin: 0.5em;
 }
 
-.BannerImage{
+.BannerImage {
   width: 100%;
   height: 20%;
   background-position: center;
-  box-shadow: 3px 2px 2px #f9ae9d ;
-  color:#E3B505;
-  margin-bottom:1em;
-  padding:1em;
-  
+  box-shadow: 3px 2px 2px #f9ae9d;
+  color: #E3B505;
+  margin-bottom: 1em;
+  padding: 1em;
+
 }
 
 /* iframe {
@@ -415,11 +441,11 @@ color:#f9ae9d;
 
 
 .socialLinksContainer {
-  display:flex;
+  display: flex;
   border-radius: 15px 50px;
-  width:50%;
-  margin:auto;
-  padding:0.3em;
+  width: 50%;
+  margin: auto;
+  padding: 0.3em;
   justify-content: space-evenly;
   background-color: rgba(39, 2, 71, 0.7);
 
@@ -430,7 +456,7 @@ color:#f9ae9d;
   /* width: 500px;
   height:750px; */
   width: 100%;
-  height:100%;
+  height: 100%;
   margin: auto;
   padding: 1em;
   border-radius: 15%;
@@ -438,8 +464,8 @@ color:#f9ae9d;
 }
 
 .linkText {
-  margin-left:1em;
-  color:white;
+  margin-left: 1em;
+  color: white;
 }
 
 .ShowInfo {
@@ -448,8 +474,8 @@ color:#f9ae9d;
 
 }
 
-.ShowInfo >* {
-  margin:0.5em;
+.ShowInfo>* {
+  margin: 0.5em;
 }
 
 .ShowsSection {
@@ -457,53 +483,60 @@ color:#f9ae9d;
 
 }
 
-.ShowsSection > h2 {
+.ShowsSection>h2 {
   font-family: 'Libre Baskerville', serif;
   font-size: 350%;
   color: #E3B505;
 }
 
 .ShowLink {
-  color:aqua;
+  color: aqua;
   text-decoration: none;
 }
 
 
 .videoSection {
-  display:block;
+  display: block;
   margin: auto;
   width: 560px;
 }
 
-.mainLinkSection > h2 {
+.linkPageHeaderText {
   text-align: center;
   color: #72dbd6;
-  margin:1em;
+  margin: 1em;
   font-family: 'Libre Baskerville', serif;
 }
-h2 > a {
+
+h2>a {
   color: #E3B505;
 }
+
 .buttonLink {
   border: 0.4em solid #72dbd6;
   border-radius: 14px;
   padding: 1em;
-  display:flex;
-  margin:auto;
-  width:85%;
-  margin-bottom:1.5em;
-  font-size:0.5em;
+  display: flex;
+  margin: auto;
+  width: 85%;
+  margin-bottom: 1.5em;
+  font-size: 0.5em;
   background-color: rgba(78, 28, 28, 0.7);
   text-align: center;
 }
 
-.buttonAnchorTag{
+.buttonAnchorTag {
 
-  font-size:250%;
-  color:#72dbd6;
+  font-size: 250%;
+  color: #72dbd6;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  margin-left: 2em;
 }
-.buttonLinkText{
-  margin-left:0.5em;
+
+.buttonLinkText {
+  margin-left: 0.5em;
 }
 
 .noLink {
@@ -523,21 +556,24 @@ h2 > a {
 .EPKMainSection a:hover {
   color: rgb(115, 7, 121);
 }
+
 .sectionTitle {
   text-align: center;
-  color:rgb(0, 226, 226);
+  color: rgb(0, 226, 226);
 }
+
 .photosSection {
-  margin:auto;
-  display:block;
-  width:80%;
-  padding-bottom:2em;
+  margin: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 2em;
 }
-.photosSection > a {
+
+.photosSection>a {
   color: #f9ae9d;
   text-align: center;
-  margin:auto;
-  display:block;
+  margin: auto;
+  display: block;
 
 }
 
@@ -555,22 +591,22 @@ h2 > a {
 
 }
 
-.underConstruction > h1 {
-  padding : 2em;
+.underConstruction>h1 {
+  padding: 2em;
   text-align: center;
 }
 
 .LivePerformanceSection {
 
   text-align: center;
-  margin:auto;
+  margin: auto;
 
 
 }
 
-.LivePerformanceSection > video {
+.LivePerformanceSection>video {
 
-width:500px;
+  width: 500px;
 
 }
 
@@ -582,7 +618,7 @@ width:500px;
   text-align: center;
 }
 
-.musicSection > p {
+.musicSection>p {
   text-align: center;
 }
 
@@ -590,4 +626,11 @@ width:500px;
   margin: 0;
   padding: 0;
   min-height: 100vh;
+}
+
+.DarkSeeThroughBackground {
+
+  padding: 1em;
+  background-color: rgba(42, 10, 101, 0.4);
+
 }
