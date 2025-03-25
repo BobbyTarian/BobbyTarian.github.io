@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import layingInGrass from "../assets/layingInGrass.jpg";
-import EveryWhereCoverArt from "../assets/EveryWhereCoverArt.png";
 import ADreamInLiminalHazeArt from "../assets/ADreamInLiminalHaze-COVER-ART.png";
 
 const BannerImage = ()=> {

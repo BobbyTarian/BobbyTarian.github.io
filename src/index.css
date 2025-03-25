@@ -4,6 +4,14 @@ html {
   scroll-padding-top: 95px;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -84,6 +92,7 @@ code {
   .mainSection {
     scroll-margin-top: 4em;
   }
+
 }
 
 .mainSection>h2 {
@@ -138,9 +147,18 @@ code {
   font-size: x-large;
 }
 
-.MainView , .mainLinkSection{
+.MainView,.linkPageBackground  {
   background: rgb(39, 2, 71);
-    background: radial-gradient(circle, rgba(39, 2, 71, 1) 0%, rgba(130, 94, 162, 1) 62%, rgba(0, 0, 0, 1) 91%);
+  background: radial-gradient(circle, rgba(39, 2, 71, 1) 0%, rgba(130, 94, 162, 1) 62%, rgba(0, 0, 0, 1) 91%);
+}
+.mainLinkSection {
+  background: rgba(95, 18, 238, 0.2);
+  background-image: url("src/assets/ADreamInLiminalHaze-COVER-ART.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-clip: content-box;
+  background-blend-mode: lighten;
+
 }
 
 .mainLinkSection, .MainView > * {
@@ -236,6 +254,7 @@ code {
     width: 75%;
     
   }
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -297,10 +316,15 @@ code {
   .videoSection {
     width: 560px;
   }
-    .coverArt {
-      width: 400px;
-      height: 400px;
-    }
+
+  .coverArt {
+    width: 400px;
+    height: 400px;
+  }
+  .mainLinkSection {
+
+    background-size: contain;
+  }
 }
 
 
@@ -461,13 +485,16 @@ h2 > a {
   color: #E3B505;
 }
 .buttonLink {
-  border: 2px solid #72dbd6;
+  border: 0.4em solid #72dbd6;
   border-radius: 14px;
-  padding: 1.5em;
+  padding: 1em;
   display:flex;
   margin:auto;
   width:85%;
   margin-bottom:1.5em;
+  font-size:0.5em;
+  background-color: rgba(78, 28, 28, 0.7);
+  text-align: center;
 }
 
 .buttonAnchorTag{
@@ -557,4 +584,10 @@ width:500px;
 
 .musicSection > p {
   text-align: center;
+}
+
+.linkPageBackground {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
