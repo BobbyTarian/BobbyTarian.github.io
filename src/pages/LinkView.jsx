@@ -17,7 +17,9 @@ const LinkView = () => {
   return (<div className="linkPageBackground" >
     <MetaPixel></MetaPixel>
     <section className="mainLinkSection" >
-      <h2> A Dream in Liminal Haze - Bobby Tarian</h2>
+      <div className="DarkSeeThroughBackground">
+        <h2 className="linkPageHeaderText"> A Dream in Liminal Haze - Bobby Tarian</h2>
+      </div>
       <div style={{ opacity: 1 }}>
 
 
@@ -25,9 +27,9 @@ const LinkView = () => {
         <ButtonLink url="https://www.youtube.com/watch?v=jdhxJ5taT9g" text="Everywhere - music video" style={{color:"#E6E276"}}></ButtonLink> */}
         <ButtonLink url={LIMINAL_HAZE_SPOTIFY_URI} text="Spotify" icon={faSpotify} style={{ color: "#1DBB59" }}></ButtonLink>
         <ButtonLink url={LIMINAL_HAZE_APPLE_URL} text="Apple Music" icon={faApple} style={{ color: "#c2cad7" }}></ButtonLink>
-        <ButtonLink url={LIMINAL_HAZE_YOUTUBE_URL} text="YouTube" icon={faYoutube} style={{ color: "#FFb7b" }}></ButtonLink>
+        <ButtonLink url={LIMINAL_HAZE_YOUTUBE_URL} text="YouTube" icon={faYoutube} style={{ color: "#FF0005" }}></ButtonLink>
         {/* <ButtonLink url={SOUNDCLOUD_URL} text="Soundcloud" icon={faSoundcloud} style={{color:"#F26F23"}}></ButtonLink> */}
-        <ButtonLink url={LIMINAL_HAZE_YOUTUBE_MUSIC_URL} text="YouTube Music" icon={faYoutubeSquare} style={{ color: "#F365BF" }}></ButtonLink>
+        <ButtonLink url={LIMINAL_HAZE_YOUTUBE_MUSIC_URL} text="YouTube Music" icon={faYoutubeSquare} style={{ color: "#FF250F" }}></ButtonLink>
         <ButtonLink url={BANDCAMP_URL} text="Bandcamp" icon={faBandcamp} style={{ color: "#62BaBB" }}></ButtonLink>
         <ButtonLink url={INSTAGRAM_URL} text="Instagram" icon={faInstagram} style={{ color: "#C14FAF" }}></ButtonLink>
         <ButtonLink url={FACEBOOK_URL} text="Facebook" icon={faFacebook} style={{ color: "#a2b5FF" }}></ButtonLink>
