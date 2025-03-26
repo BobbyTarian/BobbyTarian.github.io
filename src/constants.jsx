@@ -1,5 +1,5 @@
 export const SPOTIFY_URL = "https://open.spotify.com/artist/5LvfXALEQIOQtnfpnAUMJX?si=uQBspdOnQLO1dBVjj2IHRQ"
-export const BANDCAMP_URL = "https://bobbytarian.bandcamp.com/album/moon-remains-seasons-change"
+export const BANDCAMP_URL = "https://bobbytarian.bandcamp.com"
 export const SOUNDCLOUD_URL = "https://soundcloud.com/bobbytarian"
 export const INSTAGRAM_URL = "https://www.instagram.com/spicybazooka/"
 export const FACEBOOK_URL = "https://www.facebook.com/BobbyTarian"
