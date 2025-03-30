@@ -21,7 +21,7 @@ const BannerImage = ()=> {
         <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.65}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
             <div className="coverArtContainer">
-                <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/a-dream-in-liminal-haze" target="_blank" rel="noreferrer">A Dream in Liminal Haze - out March 28th</a></h2>
+                <h2> <a href="#Links" target="_blank" rel="noreferrer">A Dream in Liminal Haze - out March 28th</a></h2>
                 <div className="coverArt" style={{backgroundImage: "url(" + ADreamInLiminalHazeArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
                 </div>
                 <br></br>
