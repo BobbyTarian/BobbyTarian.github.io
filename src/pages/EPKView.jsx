@@ -7,6 +7,7 @@ import ContactSection from '../components/ContactSection.jsx'
 import Copyright from "../components/copyright.jsx";
 import ShowsSection from "../components/ShowsSection.jsx";
 import LivePerformanceSection from "../components/LivePerformanceSection.jsx";
+import AltYegMagazineReview from "../assets/altyegMagazineReview.png";
 
 const EPKView = ()=> {
 
@@ -63,13 +64,25 @@ const EPKView = ()=> {
         <section className="MusicEPKSection">
             <MusicSection></MusicSection>
         </section>
-
+        <br></br>
         <section className="MediaSection">
-            <h3> Media </h3>
+            <h3> Media Coverage</h3>
             <br></br>
             <p><i>Bobby Tarian fuses indie rock and bedroom pop into a dreamy landscape of introspective yearnings and deep thought self-evaluation.</i></p>
             <p> - Cups and Cakes podcast</p>
             <p><a href="https://www.cupsncakespod.com/news/2020/10/25/single-premiere-bobby-tarian-ghost" target='_blank' rel="noreferrer">https://www.cupsncakespod.com/news/2020/10/25/single-premiere-bobby-tarian-ghost</a></p>
+            
+            <hr></hr>
+            <p>
+                <h5> A Dream in Liminal Haze Review - Alt Yeg Magazine (2025)</h5>   
+                <br></br>
+                <p><i>
+                    Bobby Tarian's <em> A Dream in Liminal Haze</em> is a mesmerizing journey through ethereal soundscapes, blending ambient textures with haunting dreamlike melodies.
+                </i></p>
+                <p> - Alternativejustin</p>
+                <p>full review:</p>
+                <img src={""+AltYegMagazineReview} alt="" />
+            </p>
         </section>
 
         <h2 className="sectionTitle"> Short Bio</h2>
