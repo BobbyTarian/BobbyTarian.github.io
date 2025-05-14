@@ -58,7 +58,9 @@ const EPKView = ()=> {
         <a href="https://www.dropbox.com/scl/fo/txayennwc1b6zpog9o0yg/AExkY8RD44ylOZWZlNTQXGg?rlkey=gp7yd9gasxhd0sdm7ixu50zlj&e=1&st=kdhzbpso&dl=0" target="_blank" rel="noreferrer" > CLICK HERE FOR THE DROPBOX FOLDER WITH DOWNLOADABLE PHOTOS</a>
         </section>
         <section className="videoSection">
-        
+            <h3> Videos</h3>
+        <iframe style={{width:"50em", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/qM093Q7kxhQ?si=a6HtGwgBdsjB1xdb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe style={{width:"50em", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/LDSfZQIjV_k?si=_cR2-HcGFx10LdBX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
         <section className="MusicEPKSection">
@@ -81,7 +83,7 @@ const EPKView = ()=> {
                 </i></p>
                 <p> - Alternativejustin</p>
                 <p>full review:</p>
-                <img src={""+AltYegMagazineReview} alt="" />
+                <img className="magazineReviewImage" src={""+AltYegMagazineReview} alt="" />
             </p>
         </section>
 
