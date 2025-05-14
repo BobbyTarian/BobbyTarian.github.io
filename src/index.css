@@ -239,7 +239,8 @@ code {
   .BioSection,
   .musicSection,
   .ShowsSection,
-  .MediaSection {
+  .MediaSection,
+  .videoSection {
     width: 75%;
   }
 
@@ -271,7 +272,8 @@ code {
   .BioSection,
   .musicSection,
   .ShowsSection,
-  .MediaSection {
+  .MediaSection,
+  .videoSection {
     width: 50%;
   }
 
@@ -290,7 +292,7 @@ code {
 
   .videoSection {
     margin: auto;
-    width: 80%;
+    width: 45%;
   }
 
   .videoSection>h3 {
@@ -312,7 +314,8 @@ code {
 
   .BioSection,
   .ShowsSection,
-  .MediaSection {
+  .MediaSection,
+  .videoSection {
     width: 85%;
   }
 
@@ -479,7 +482,11 @@ code {
 .ShowInfo {
   display: flex;
   justify-content: center;
-
+  border-style: groove;
+  border-width: 1px;
+  border-color: #849d9c;
+  border-radius: 2px;
+  margin-bottom: 1em;
 }
 
 .ShowInfo>* {
@@ -500,8 +507,17 @@ code {
 .ShowLink {
   color: aqua;
   text-decoration: none;
+  font-size: 155%;
 }
 
+.Show>* {
+  font-size: 155%;
+
+}
+
+.showDate {
+  font-size: 125%;
+}
 
 .videoSection {
   display: block;
@@ -643,8 +659,8 @@ h2>a {
 }
 
 .magazineReviewImage {
-  width: 45em;
-  height: 60em;
+  width: 300px;
+  height: 450px;
 
   margin: auto;
 }

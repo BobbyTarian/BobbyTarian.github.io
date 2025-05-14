@@ -59,8 +59,8 @@ const EPKView = ()=> {
         </section>
         <section className="videoSection">
             <h3> Videos</h3>
-        <iframe style={{width:"50em", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/qM093Q7kxhQ?si=a6HtGwgBdsjB1xdb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe style={{width:"50em", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/LDSfZQIjV_k?si=_cR2-HcGFx10LdBX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe style={{width:"100%", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/qM093Q7kxhQ?si=a6HtGwgBdsjB1xdb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe style={{width:"100%", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/LDSfZQIjV_k?si=_cR2-HcGFx10LdBX" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </section>
 
         <section className="MusicEPKSection">
