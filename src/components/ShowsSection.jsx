@@ -7,7 +7,7 @@ const ShowsSection = () => {
             <div className="Show">
                               
                 
-            <h3>TBA</h3>
+            <ShowInfoDisplay location="Highlandia" date="June 14th, 2025" ticketLink="https://www.highlandiafest.com/"></ShowInfoDisplay>
 
             </div>
           
