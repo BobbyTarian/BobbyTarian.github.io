@@ -293,6 +293,14 @@ code {
     width: 80%;
   }
 
+  .videoSection>h3 {
+    color: #e3d405;
+    margin: auto;
+    text-align: center;
+    font-size: 225%;
+    padding: 1em;
+  }
+
   .musicPlayerContainer {
     margin: auto;
     width: 350px;
@@ -334,7 +342,7 @@ code {
   }
 
   .videoSection {
-    width: 560px;
+    width: 85%;
   }
 
   .coverArt {
@@ -498,7 +506,6 @@ code {
 .videoSection {
   display: block;
   margin: auto;
-  width: 560px;
 }
 
 .linkPageHeaderText {
@@ -633,4 +640,15 @@ h2>a {
   padding: 1em;
   background-color: rgba(42, 10, 101, 0.4);
 
+}
+
+.magazineReviewImage {
+  width: 45em;
+  height: 60em;
+
+  margin: auto;
+}
+
+.magazineReviewImage:hover {
+  transform: scale(2, 2);
 }
