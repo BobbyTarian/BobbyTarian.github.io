@@ -39,7 +39,7 @@ const BannerImage = ()=> {
                 <img src={""+headshotImage} alt="" />
             </div> */}
             <section className="latestShowSection">
-                <ShowInfoDisplay location="Highlandia" date="June 14th, 2025" ticketLink="https://www.highlandiafest.com/"></ShowInfoDisplay>
+                {/* <ShowInfoDisplay location="Highlandia" date="June 14th, 2025" ticketLink="https://www.highlandiafest.com/"></ShowInfoDisplay> */}
             </section>
             {/* <div className="socialLinksContainer">
                 <StreamingPlatformsDisplay></StreamingPlatformsDisplay>
