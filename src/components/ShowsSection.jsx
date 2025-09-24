@@ -6,8 +6,7 @@ const ShowsSection = () => {
             <h2 className="showHeader"> Upcoming Shows</h2>
             <div className="Show">
                               
-                
-            <ShowInfoDisplay location="Highlandia" date="June 14th, 2025" ticketLink="https://www.highlandiafest.com/"></ShowInfoDisplay>
+            <ShowInfoDisplay location="Edmonton Downtown Farmer's Market" date="October 4th, 2025" ticketLink="https://www.edmontondowntown.com/farmersmarket/"></ShowInfoDisplay>
 
             </div>
           
@@ -15,6 +14,8 @@ const ShowsSection = () => {
             <br></br>
             <div className="pastShow">
                   <h2>Past Shows</h2>
+                  <ShowInfoDisplay location="Blue Willow and Friends at Heliopolis Cafe" date="June 19th, 2025" ticketLink="https://heliopolissocialcafe.ca/event/blue-willow-showcase/"></ShowInfoDisplay>
+                <ShowInfoDisplay location="Highlandia" date="June 14th, 2025" ticketLink="https://www.highlandiafest.com/"></ShowInfoDisplay>
                 <ShowInfoDisplay location="The Red Door" date="February 21st, 2025" ticketLink=""></ShowInfoDisplay>
                 <ShowInfoDisplay location="Felice Cafe Single Release with David Henneberg and Esther Forseth" date="December 13th, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location = "Dive Bar  with Cooking Balconys and Kentucky" date= "October 24th, 2024 || Doors 7pm , Music 8pm" ticketLink="https://www.ticketleap.events/tickets/blondie-presents/CookingBalconys"></ShowInfoDisplay>
@@ -40,7 +41,6 @@ const ShowsSection = () => {
                 <ShowInfoDisplay location="Rocking 4 Dollars at Buckingham" ticketLink = "" date="Mar 25, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location="BLAKBAR" ticketLink = "https://www.facebook.com/events/7051742518271512/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A1878852045903015%7D%7D]%22%7D" date = "Feb 23, 2024"></ShowInfoDisplay>
                 <ShowInfoDisplay location="Felice Cafe" ticketLink = "https://www.eventbrite.ca/e/felice-noir-bobby-tarian-tayler-grace-tickets-800355172867?aff=oddtdtcreator" date="Feb 16, 2024"></ShowInfoDisplay>
-
 
             </div>
 
