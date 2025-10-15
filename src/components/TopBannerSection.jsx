@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import layingInGrass from "../assets/layingInGrass.jpg";
-import ADreamInLiminalHazeArt from "../assets/ADreamInLiminalHaze-COVER-ART.png";
+import SpiderSongCoverArt from "../assets/SpiderSongCover-3000x3000.png"
 import ShowInfoDisplay from "./ShowInfoDisplay";
 
 const BannerImage = ()=> {
@@ -22,8 +22,8 @@ const BannerImage = ()=> {
         <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.65}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
             <div className="coverArtContainer">
-                <h2> <a href="#Links" target="_blank" rel="noreferrer">A Dream in Liminal Haze out now </a></h2>
-                <div className="coverArt" style={{backgroundImage: "url(" + ADreamInLiminalHazeArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
+                <h2> <a href="#" >Spider Song - October 23rd </a></h2>
+                <div className="coverArt" style={{backgroundImage: "url(" + SpiderSongCoverArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
                 </div>
                 <br></br>
             {/* <section className="videoSection">
