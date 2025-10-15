@@ -22,7 +22,7 @@ const BannerImage = ()=> {
         <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.65}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
             <div className="coverArtContainer">
-                <h2> <a href="#" >Spider Song - October 23rd </a></h2>
+                <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/spider-song"  target="_blank" rel="noreferrer" >Spider Song - October 23rd </a></h2>
                 <div className="coverArt" style={{backgroundImage: "url(" + SpiderSongCoverArt + ")", backgroundPosition: "center", backgroundSize:"cover"}}></div>
                 </div>
                 <br></br>
