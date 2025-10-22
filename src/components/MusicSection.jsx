@@ -9,6 +9,9 @@ const musicSection = () => {
             
             <br></br>
 
+            <p>Spider Song <em> October 23rd, 2025</em></p>
+            <iframe style={{border: 0, width: "80%", height: "120px;", margin:"auto", display:"block", padding:"1em"}} src="https://bandcamp.com/EmbeddedPlayer/track=1815174593/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://bobbytarian.bandcamp.com/track/spider-song">Spider Song by Bobby Tarian</a></iframe>
+
             <p>A Dream in Liminal Haze <em> March 28th, 2025</em></p>
             <iframe style={{border: 0, width: "80%", height: "120px;", margin:"auto", display:"block", padding:"1em"}} src="https://bandcamp.com/EmbeddedPlayer/track=4072734428/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://bobbytarian.bandcamp.com/track/a-dream-in-liminal-haze">A Dream in Liminal Haze by Bobby Tarian</a></iframe>
 
