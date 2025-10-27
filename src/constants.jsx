@@ -13,3 +13,7 @@ export const LIMINAL_HAZE_YOUTUBE_URL = "https://youtu.be/4_ACtBeWuWA?si=ypzAFf9
 export const LIMINAL_HAZE_YOUTUBE_MUSIC_URL = "https://music.youtube.com/watch?v=4_ACtBeWuWA&si=dykG0n8OcUinFXp1"
 
 
+export const SPIDER_SONG_APPLE_URL = "https://music.apple.com/us/song/spider-song/1846175728"
+export const SPIDER_SONG_SPOTIFY_URL = "https://open.spotify.com/track/0aEOP5NdJUnfsVmnyjF6jl?si=007f81af9b58448f"
+export const SPIDER_SONG_YOUTUBE_URL = "https://www.youtube.com/watch?v=t7Ak9UI2IgE"
+

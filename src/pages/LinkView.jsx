@@ -2,7 +2,7 @@ import ButtonLink from "../components/ButtonLink";
 import {
   SPOTIFY_URL, BANDCAMP_URL, FACEBOOK_URL, INSTAGRAM_URL, SOUNDCLOUD_URL, APPLE_MUSIC_URL, YOUTUBE_URL,
   LIMINAL_HAZE_APPLE_URL, LIMINAL_HAZE_SPOTIFY_URI,
-  LIMINAL_HAZE_YOUTUBE_URL, LIMINAL_HAZE_YOUTUBE_MUSIC_URL
+  LIMINAL_HAZE_YOUTUBE_URL, LIMINAL_HAZE_YOUTUBE_MUSIC_URL, SPIDER_SONG_APPLE_URL, SPIDER_SONG_SPOTIFY_URL, SPIDER_SONG_YOUTUBE_URL
 } from '../constants';
 import { faSpotify, faYoutube, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 import { faBandcamp } from '@fortawesome/free-brands-svg-icons';
@@ -12,25 +12,26 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faApple } from "@fortawesome/free-brands-svg-icons";
 import layingInGrass from "../assets/layingInGrass.jpg";
 import ADreamInLiminalHazeCOVERART from "../assets/ADreamInLiminalHaze-COVER-ART.png";
+import SpiderSongCover from "../assets/SpiderSongCover-3000x3000.png";
 import MetaPixel from "../utils/metaPixel";
 
 const LinkView = () => {
   return (<div className="linkPageBackground" >
     <MetaPixel></MetaPixel>
-    <section className="mainLinkSection" style={{backgroundImage:"url("+ADreamInLiminalHazeCOVERART+ ")"}}>
+    <section className="mainLinkSection" style={{backgroundImage:"url("+SpiderSongCover+ ")"}}>
       <div className="DarkSeeThroughBackground">
-        <h2 className="linkPageHeaderText"> A Dream in Liminal Haze - Bobby Tarian</h2>
+        <h2 className="linkPageHeaderText"> Spider Song - Bobby Tarian</h2>
       </div>
       <div style={{ opacity: 1 }}>
 
 
         {/* <ButtonLink  url ="https://open.spotify.com/track/6qMOXKJTdrlUKnMsv7RcZH?si=5ae7b71f2f914b86" text='"Everywhere" - on spotify' style={{color:"#62de7f"}}></ButtonLink>
         <ButtonLink url="https://www.youtube.com/watch?v=jdhxJ5taT9g" text="Everywhere - music video" style={{color:"#E6E276"}}></ButtonLink> */}
-        <ButtonLink url={LIMINAL_HAZE_SPOTIFY_URI} text="Spotify" icon={faSpotify} style={{ color: "#1DBB59" }}></ButtonLink>
-        <ButtonLink url={LIMINAL_HAZE_APPLE_URL} text="Apple Music" icon={faApple} style={{ color: "#c2cad7" }}></ButtonLink>
-        <ButtonLink url={LIMINAL_HAZE_YOUTUBE_URL} text="YouTube" icon={faYoutube} style={{ color: "#FF0005" }}></ButtonLink>
+        <ButtonLink url={SPIDER_SONG_SPOTIFY_URL} text="Spotify" icon={faSpotify} style={{ color: "#1DBB59" }}></ButtonLink>
+        <ButtonLink url={SPIDER_SONG_APPLE_URL} text="Apple Music" icon={faApple} style={{ color: "#c2cad7" }}></ButtonLink>
+        <ButtonLink url={SPIDER_SONG_YOUTUBE_URL} text="YouTube" icon={faYoutube} style={{ color: "#FF0005" }}></ButtonLink>
         {/* <ButtonLink url={SOUNDCLOUD_URL} text="Soundcloud" icon={faSoundcloud} style={{color:"#F26F23"}}></ButtonLink> */}
-        <ButtonLink url={LIMINAL_HAZE_YOUTUBE_MUSIC_URL} text="YouTube Music" icon={faYoutubeSquare} style={{ color: "#FF250F" }}></ButtonLink>
+        {/* <ButtonLink url={LIMINAL_HAZE_YOUTUBE_MUSIC_URL} text="YouTube Music" icon={faYoutubeSquare} style={{ color: "#FF250F" }}></ButtonLink> */}
         <ButtonLink url={BANDCAMP_URL} text="Bandcamp" icon={faBandcamp} style={{ color: "#62BaBB" }}></ButtonLink>
         <ButtonLink url={INSTAGRAM_URL} text="Instagram" icon={faInstagram} style={{ color: "#C14FAF" }}></ButtonLink>
         <ButtonLink url={FACEBOOK_URL} text="Facebook" icon={faFacebook} style={{ color: "#a2b5FF" }}></ButtonLink>
