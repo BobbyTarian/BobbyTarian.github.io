@@ -239,12 +239,7 @@ code {
   .BioSection,
   .musicSection,
   .ShowsSection,
-  .MediaSection,
-  .videoSection {
-    width: 75%;
-  }
-
-  .BioText {
+  .MediaSection .BioText {
     width: 75%;
   }
 
@@ -260,11 +255,6 @@ code {
     height: calc(400px);
   }
 
-  .videoSection {
-    width: 75%;
-
-  }
-
 }
 
 @media screen and (min-width: 1500px) {
@@ -272,8 +262,7 @@ code {
   .BioSection,
   .musicSection,
   .ShowsSection,
-  .MediaSection,
-  .videoSection {
+  .MediaSection {
     width: 50%;
   }
 
@@ -288,11 +277,6 @@ code {
     margin: auto;
     width: 80%;
     height: 80%;
-  }
-
-  .videoSection {
-    margin: auto;
-    width: 45%;
   }
 
   .videoSection>h3 {
@@ -314,8 +298,7 @@ code {
 
   .BioSection,
   .ShowsSection,
-  .MediaSection,
-  .videoSection {
+  .MediaSection {
     width: 85%;
   }
 
@@ -341,10 +324,6 @@ code {
   }
 
   .BioText {
-    width: 85%;
-  }
-
-  .videoSection {
     width: 85%;
   }
 
@@ -519,11 +498,6 @@ code {
   font-size: 125%;
 }
 
-.videoSection {
-  display: block;
-  margin: auto;
-}
-
 .linkPageHeaderText {
   text-align: center;
   color: #72dbd6;
@@ -633,7 +607,8 @@ h2>a {
 
 }
 
-.coverArtContainer {
+.coverArtContainer,
+.videoSection {
   align-items: center;
   display: flex;
   justify-content: center;
