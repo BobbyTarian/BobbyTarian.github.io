@@ -8,6 +8,7 @@ import ShowsSection from './components/ShowsSection.jsx'
 import bioSection from './components/BioSection.jsx'
 import contactSection from './components/ContactSection.jsx'
 import EPKView from './pages/EPKView.jsx'
+import NewsletterView from './pages/NewsletterView.jsx'
 import UnderConstruction from './pages/UnderConstruction.jsx'
 import './index.css'
 import {
@@ -55,6 +56,11 @@ const router = createHashRouter([
     errorElement:<LinkView></LinkView>
 
   },
+  {
+    path:"newsletter",
+    element: <NewsletterView></NewsletterView>,
+    errorElement:<LinkView></LinkView>
+  }
 
 ]);
 

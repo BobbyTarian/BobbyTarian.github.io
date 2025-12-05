@@ -10,7 +10,7 @@ const BannerImage = ()=> {
             setWidth(window.visualViewport.width - 50);
         }
         else {
-            setWidth(560);
+            setWidth(580);
         }
     }
     useEffect(() => {
@@ -19,7 +19,7 @@ const BannerImage = ()=> {
 
     return (
 
-        <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.65}} id="Home">
+        <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.88}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
             <div className="coverArtContainer">
                 <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/spider-song"  target="_blank" rel="noreferrer" >Spider Song - October 23rd </a></h2>
@@ -38,9 +38,15 @@ const BannerImage = ()=> {
             {/* <div className="headshotPhotoContainer">
                 <img src={""+headshotImage} alt="" />
             </div> */}
-            <section className="latestShowSection">
-                {/* <ShowInfoDisplay location="Highlandia" date="June 14th, 2025" ticketLink="https://www.highlandiafest.com/"></ShowInfoDisplay> */}
+            <section className="newsletterContainer">
+                
+                
+                <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+                <iframe src="https://subscribe-forms.beehiiv.com/def56aa7-e7b6-482b-af38-7e0c20d09c1d" className="beehiiv-embed" data-test-id="beehiiv-embed" frameBorder="0" scrolling="no" style={{width:"100%", height: "353px", margin:"0", borderRadius:"0px 0px 0px 0px", backgroundColor:"transparent" , boxShadow:"0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)", maxWidth: "100%"}}></iframe>
+                 
+                
             </section>
+            
             {/* <div className="socialLinksContainer">
                 <StreamingPlatformsDisplay></StreamingPlatformsDisplay>
             </div> */}
