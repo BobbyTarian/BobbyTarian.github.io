@@ -1,9 +1,14 @@
+import headShot from "../assets/headshot.jpg";
+import sunsetNature from "../assets/sunsetNature.jpg";
+
 import ButtonLink from "../components/ButtonLink";
+
 const NewsletterView = ()=> {
 
     return(
-    <div className="NewsletterMain sunsetNatureBackground" >
-        <div className="headshotCircle" ></div>
+    <div className="NewsletterMain sunsetNatureBackground" style={{backgroundImage: "url(" + sunsetNature + ")"}} >
+        <div style={{padding:"2em"}}></div>
+        <div className="headshotCircle"  style={{backgroundImage: "url(" + headShot + ")"}} ></div>
         <h2 className="linkPageHeaderText"> Bobby Tarian</h2>
 
         <section className="newsletterContainer" style={{padding:"2em"}}>

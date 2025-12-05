@@ -651,7 +651,7 @@ h2>a {
 }
 
 .sunsetNatureBackground {
-  background-image: url("src/assets/sunsetNature.jpg");
+  /* background-image: url("src/assets/sunsetNature.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -659,7 +659,7 @@ h2>a {
 }
 
 .headshotCircle {
-  background-image: url("src/assets/headshot.jpg");
+  /* background-image: url("src/assets/headshot.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -670,5 +670,6 @@ h2>a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 2em;
 
 }
