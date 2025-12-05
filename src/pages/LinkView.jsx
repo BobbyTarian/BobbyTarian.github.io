@@ -11,16 +11,18 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faApple } from "@fortawesome/free-brands-svg-icons";
 import layingInGrass from "../assets/layingInGrass.jpg";
+import headShot from "../assets/headshot.jpg";
+import sunsetNature from "../assets/sunsetNature.jpg";
 import ADreamInLiminalHazeCOVERART from "../assets/ADreamInLiminalHaze-COVER-ART.png";
 import SpiderSongCover from "../assets/SpiderSongCover-3000x3000.png";
 
 import MetaPixel from "../utils/metaPixel";
 
 const LinkView = () => {
-  return (<div className="sunsetNatureBackground">
+  return (<div className="sunsetNatureBackground "  style={{backgroundImage: "url(" + sunsetNature + ")", backgroundPosition:"center", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"100vh"}}  >
     <MetaPixel></MetaPixel>
     <section className="mainLinkSection" style={{paddingTop:"7em"}}>
-      <div className="headshotCircle" ></div>
+      <div className="headshotCircle" style={{backgroundImage: "url(" + headShot + ")"}} ></div>
       <h2 className="linkPageHeaderText"> Bobby Tarian</h2>
       <div>
       {/* <StreamingPlatformsDisplay></StreamingPlatformsDisplay> */}
