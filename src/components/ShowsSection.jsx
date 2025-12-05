@@ -5,16 +5,16 @@ const ShowsSection = () => {
         <section className="ShowsSection" id="Shows">
             <h2 className="showHeader"> Upcoming Shows</h2>
             <div className="Show">
-                              
-            <ShowInfoDisplay location="Cold Garden, Calgary" date="Nov 20th, 2025" ticketLink=""></ShowInfoDisplay>
-            <ShowInfoDisplay location="Epic Market" date="Nov 27th, 2025" ticketLink=""></ShowInfoDisplay>
-
+                <ShowInfoDisplay location="The Aviary" date = "December 11th, 2025" ticketLink="https://tickets.fringetheatre.ca/event/601:6845/601:44201/"></ShowInfoDisplay>   
+        
             </div>
           
             <br></br>
             <br></br>
             <div className="pastShow">
                   <h2>Past Shows</h2>
+                  <ShowInfoDisplay location="Cold Garden, Calgary" date="Nov 20th, 2025" ticketLink=""></ShowInfoDisplay>
+                    <ShowInfoDisplay location="Co lab " date="Nov 28th, 2025" ticketLink=""></ShowInfoDisplay>
                   <ShowInfoDisplay location="Edmonton Downtown Farmer's Market" date="October 4th, 2025" ticketLink="https://www.edmontondowntown.com/farmersmarket/"></ShowInfoDisplay>
                   <ShowInfoDisplay location="Blue Willow and Friends at Heliopolis Cafe" date="June 19th, 2025" ticketLink="https://heliopolissocialcafe.ca/event/blue-willow-showcase/"></ShowInfoDisplay>
                 <ShowInfoDisplay location="Highlandia" date="June 14th, 2025" ticketLink="https://www.highlandiafest.com/"></ShowInfoDisplay>

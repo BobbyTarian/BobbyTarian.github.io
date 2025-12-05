@@ -58,7 +58,7 @@ code {
   margin: 0.5em;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  color: #E3B505;
+  color: #e37936;
 }
 
 .customNav {
@@ -66,7 +66,7 @@ code {
   color: #f5fffd;
   /* margin-bottom: 1em; */
   background: rgb(39, 2, 71);
-  background: linear-gradient(90deg, rgba(39, 2, 71, 1) 6%, rgba(36, 3, 75, 1) 64%, rgba(0, 13, 124, 1) 87%, rgba(212, 74, 211, 1) 100%);
+  background: linear-gradient(90deg, rgba(21, 61, 37, 1) 6%, rgba(49, 108, 148, 1) 64%, rgba(214, 105, 36, 1) 87%, rgba(227, 134, 201, 1) 100%);
   box-shadow: 1px 1px 2px rgb(39, 1, 88);
 
 }
@@ -148,20 +148,18 @@ code {
   font-size: x-large;
 }
 
-.MainView,
-.linkPageBackground {
-  background: rgb(39, 2, 71);
-  background: radial-gradient(circle, rgba(39, 2, 71, 1) 0%, rgba(130, 94, 162, 1) 62%, rgba(0, 0, 0, 1) 91%);
+.MainView {
+  background: radial-gradient(circle, rgba(39, 2, 71, 1) 0%, rgba(21, 61, 37, 1) 62%, rgba(49, 108, 148, 1) 91%);
 }
 
-.mainLinkSection {
+/* .mainLinkSection {
   background: rgba(95, 18, 238, 0.2);
   background-repeat: repeat-y;
   background-position: center;
   background-clip: content-box;
   background-blend-mode: lighten;
 
-}
+} */
 
 .mainLinkSection,
 .MainView>* {
@@ -280,7 +278,7 @@ code {
   }
 
   .videoSection>h3 {
-    color: #e3d405;
+    color: #e37936;
     margin: auto;
     text-align: center;
     font-size: 225%;
@@ -389,7 +387,7 @@ code {
 }
 
 .MediaSection>h3 {
-  color: #e3d405;
+  color: #e37936;
   margin: auto;
   text-align: center;
   font-size: 225%;
@@ -416,7 +414,7 @@ code {
   height: 20%;
   background-position: center;
   box-shadow: 3px 2px 2px #f9ae9d;
-  color: #E3B505;
+  color: #e37936;
   margin-bottom: 1em;
   padding: 1em;
 
@@ -480,7 +478,7 @@ code {
 .ShowsSection>h2 {
   font-family: 'Libre Baskerville', serif;
   font-size: 350%;
-  color: #E3B505;
+  color: #e37936;
 }
 
 .ShowLink {
@@ -500,13 +498,13 @@ code {
 
 .linkPageHeaderText {
   text-align: center;
-  color: #72dbd6;
+  color: #91B6BDFF;
   margin: 1em;
   font-family: 'Libre Baskerville', serif;
 }
 
 h2>a {
-  color: #E3B505;
+  color: #e386c9;
 }
 
 .buttonLink {
@@ -518,7 +516,7 @@ h2>a {
   width: 85%;
   margin-bottom: 1.5em;
   font-size: 0.5em;
-  background-color: rgba(78, 28, 28, 0.7);
+  background-color: rgba(85, 134, 144, 0.8);
   text-align: center;
 }
 
@@ -629,7 +627,7 @@ h2>a {
 .DarkSeeThroughBackground {
 
   padding: 1em;
-  background-color: rgba(42, 10, 101, 0.4);
+  background-color: rgba(42, 10, 101, 0.3);
 
 }
 
@@ -642,4 +640,35 @@ h2>a {
 
 .magazineReviewImage:hover {
   transform: scale(2, 2);
+}
+
+.newsletterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.sunsetNatureBackground {
+  background-image: url("src/assets/sunsetNature.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.headshotCircle {
+  background-image: url("src/assets/headshot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgb(39, 1, 88);
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
