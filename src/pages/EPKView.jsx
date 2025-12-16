@@ -53,16 +53,16 @@ const EPKView = ()=> {
         <h1 className="pageTitle">Bobby Tarian</h1>
         <section className="ButtonSection">
         </section>
-        <section className="photosSection">
-<h2 className="sectionTitle"> dropbox link for photos</h2>
-        <a href="https://www.dropbox.com/scl/fo/txayennwc1b6zpog9o0yg/AExkY8RD44ylOZWZlNTQXGg?rlkey=gp7yd9gasxhd0sdm7ixu50zlj&e=1&st=kdhzbpso&dl=0" target="_blank" rel="noreferrer" > CLICK HERE FOR THE DROPBOX FOLDER WITH DOWNLOADABLE PHOTOS</a>
-        </section>
+        <h2 className="sectionTitle"> Short Bio</h2>
+        <BioSection></BioSection>
+        
         <section className="videoSection">
             <h3> Videos</h3>
-        <iframe style={{width:"100%", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/qM093Q7kxhQ?si=a6HtGwgBdsjB1xdb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-        <iframe style={{width:"100%", height:"25em", padding:"1em"}} src="https://www.youtube.com/embed/LDSfZQIjV_k?si=_cR2-HcGFx10LdBX" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <LivePerformanceSection></LivePerformanceSection>
+        <iframe style={{width:"90%", height:"30em", padding:"1em"}} src="https://www.youtube.com/embed/qM093Q7kxhQ?si=a6HtGwgBdsjB1xdb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe style={{width:"90%", height:"30em", padding:"1em"}} src="https://www.youtube.com/embed/LDSfZQIjV_k?si=_cR2-HcGFx10LdBX" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </section>
-
+        
         <section className="MusicEPKSection">
             <MusicSection></MusicSection>
         </section>
@@ -86,9 +86,11 @@ const EPKView = ()=> {
                 <img className="magazineReviewImage" src={""+AltYegMagazineReview} alt="" />
             </p>
         </section>
-
-        <h2 className="sectionTitle"> Short Bio</h2>
-        <BioSection></BioSection>
+        <section className="photosSection">
+            <h2 className="sectionTitle"> dropbox link for photos</h2>
+            <a href="https://www.dropbox.com/scl/fo/txayennwc1b6zpog9o0yg/AExkY8RD44ylOZWZlNTQXGg?rlkey=gp7yd9gasxhd0sdm7ixu50zlj&e=1&st=kdhzbpso&dl=0" target="_blank" rel="noreferrer" > CLICK HERE FOR THE DROPBOX FOLDER WITH DOWNLOADABLE PHOTOS</a>
+        </section>
+        
         <br></br>
         <section className="BioDownload"></section>
 
@@ -102,7 +104,7 @@ const EPKView = ()=> {
 
     <section className="BioDownload"></section>
 
-    <LivePerformanceSection></LivePerformanceSection>
+    
 
     <section className = "NoteablePerformances">
             <ShowsSection></ShowsSection>
