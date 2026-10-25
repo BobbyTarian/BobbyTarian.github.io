@@ -22,16 +22,16 @@ const BannerImage = ()=> {
         <div className="BannerImage" style={{backgroundImage: "url(" + layingInGrass + ")", opacity:0.88}} id="Home">
             <h1 className="pageTitle"> Bobby Tarian</h1>
             <div className="coverArtContainer">
-                <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/spider-song"  target="_blank" rel="noreferrer" >Spider Song - October 23rd </a></h2>
+                <h2> <a href="https://distrokid.com/hyperfollow/bobbytarian/decaydence"  target="_blank" rel="noreferrer" >Deca(y)dence - October 28th </a></h2>
                 </div>
                 <br></br>
             <section className="videoSection">
                 
                 
-                <div className="youtubeVid">
+                {/* <div className="youtubeVid">
                     <iframe width={width} height="315" src="https://www.youtube.com/embed/vNKESUJ41oU?si=SiQHXXWXRxRjkVbM"   title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     
-                </div>
+                </div> */}
                 
                 
             </section>
